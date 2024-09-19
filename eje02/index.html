@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
 </head>
 <body>
-    
+    <h1>Este es mi app</h1>
+    <main class="container">
+        <form>
+            <label>
+                IP del usuario
+                <input type="text" placeholder="Introduce aqui la IP">
+                <small>Por ejemplo: 54.85.132.205</small>
+            </label>
+            <button>
+                Buscar informacion de esta IP
+            </button>
+        </form>
+        <div id="results">
+
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
