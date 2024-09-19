@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
 </head>
+
 <body>
     <h1>Este es mi app</h1>
     <main class="container">
-        <form>
+        <form id="form">
             <label>
                 IP del usuario
                 <input type="text" placeholder="Introduce aqui la IP">
@@ -20,10 +22,14 @@
                 Buscar informacion de esta IP
             </button>
         </form>
-        <div id="results">
+        <div>
+            <pre id="results">
+
+            </pre>
 
         </div>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
