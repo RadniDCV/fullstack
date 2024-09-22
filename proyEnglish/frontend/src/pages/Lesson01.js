@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Table from "react-bootstrap/Table";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './style.css'
+
 
 function Lesson01() {
   return (
@@ -18,10 +20,10 @@ function Lesson01() {
         </thead>
         <tbody>
           <tr>
-            <td>a cat</td>
-            <td>a dog</td>
-            <td>an elephant</td>
-            <td>an octopus</td>
+            <td><img src='/image/cat.jpeg' alt="Cat"/><br/>a cat</td>
+            <td><img src='/image/dog.webp' alt='Dog'/><br/>a dog</td>
+            <td><img src='/image/elephant.jpeg' alt='Dog'/><br/>an elephant</td>
+            <td><img src='/image/octopus.jpeg' alt='Dog'/><br/>an octopus</td>
           </tr>
         </tbody>
       </Table>
