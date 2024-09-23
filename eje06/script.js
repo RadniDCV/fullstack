@@ -24,3 +24,11 @@ console.log(sum03)
 
 let name = "John"
 console.log(`Hola, ${name}!`)
+
+let age = 100;
+age = undefined
+console.log(age)
+
+let name1 = "Ilya"
+console.log(`Hola, ${name1}`)
+
