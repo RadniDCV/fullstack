@@ -26,7 +26,7 @@ document
         return response.json();
       })
       .then((result) => {
-        alert("Datos guardados correctamente");
+        alert("Datos guardados");
       })
       .catch((error) => {
         console.error("Error:", error);
