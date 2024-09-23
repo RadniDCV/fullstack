@@ -1,0 +1,26 @@
+[
+  {
+    "fname": "Juan",
+    "sname": "Carlos",
+    "lname": "Perez",
+    "slname": "Gomez",
+    "materia": "Matematicas",
+    "nota": 85
+  },
+  {
+    "fname": "Maria",
+    "sname": "Carmen",
+    "lname": "Garcia",
+    "slname": "Lopez",
+    "materia": "Matematicas",
+    "nota": 88
+  },
+  {
+    "fname": "Carmen",
+    "sname": "Andrea",
+    "lname": "Artega",
+    "slname": "Roca",
+    "materia": "Matematicas",
+    "nota": "75"
+  }
+]
