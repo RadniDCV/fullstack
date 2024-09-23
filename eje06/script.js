@@ -32,3 +32,9 @@ console.log(age)
 let name1 = "Ilya"
 console.log(`Hola, ${name1}`)
 
+let nota = 60;
+if (nota >51) {
+    console.log(`Aprobaste con la siguiente nota:${nota}`) 
+}else{
+    console.log(`Reprobaste con la siguiente nota: ${nota}`)
+}
