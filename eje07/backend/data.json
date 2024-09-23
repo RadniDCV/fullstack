@@ -22,5 +22,21 @@
     "slname": "Roca",
     "materia": "Matematicas",
     "nota": "75"
+  },
+  {
+    "fname": "Maria",
+    "sname": "Paola",
+    "lname": "Andrade",
+    "slname": "Copa",
+    "materia": "Lenguaje",
+    "nota": "68"
+  },
+  {
+    "fname": "Carmen",
+    "sname": "Liliana",
+    "lname": "Lopez",
+    "slname": "Villa",
+    "materia": "Lenguaje",
+    "nota": "68"
   }
 ]
