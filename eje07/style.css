@@ -1,6 +1,6 @@
-/*{
+*{
     border: 1px solid red;
-}*/
+}*
 .titulo{
     display: flex;
     justify-content: center;
@@ -9,5 +9,7 @@
 .container01{
     margin-left: 20px;
     margin-right: 20px;
+    display: flex;
+    justify-content: center;
    
 }
