@@ -28,7 +28,8 @@ section{
     align-items: center;
 }
 .contenedor h2{
-    font-size: 2.3rem;
+    font-size: 2rem;
+    color: #fff;
     margin: 30px 0;
     width: 300px;
     border-bottom:  2px solid #fff;
