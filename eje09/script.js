@@ -10,3 +10,13 @@ let profession;
 let age;
 profession = "teacher";
 age = 25;
+
+
+let verb1;
+verb1 = "act"
+
+if (verb1 === "act")
+{
+    console.log("You are acting")
+}
+
