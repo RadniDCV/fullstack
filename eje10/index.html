@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irregular Verbs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Irregular Verbs</h1>
+    </header>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Verbo</th>
+                    <th>Pasado</th>
+                    <th>Participio</th>
+                    <th>Significado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>abide</td>
+                    <td><input type="text" id="abide-past"></td>
+                    <td><input type="text" id="abide-participle"></td>
+                    <td><input type="text" id="abide-meaning"></td>
+                </tr>
+                <tr>
+                    <td>arise</td>
+                    <td><input type="text" id="arise-past"></td>
+                    <td><input type="text" id="arise-participle"></td>
+                    <td><input type="text" id="arise-meaning"></td>
+                </tr>
+                <tr>
+                    <td>awake</td>
+                    <td><input type="text" id="awake-past"></td>
+                    <td><input type="text" id="awake-participle"></td>
+                    <td><input type="text" id="awake-meaning"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="checkAnswers()">Check Answers</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
