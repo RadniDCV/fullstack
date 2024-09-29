@@ -75,5 +75,20 @@ function checkAnswers() {
 
     resultText += awakeCorrect ? "Awake: Correct!<br>" : "Awake: Incorrect.<br>";
 
+    // Verificar 'be'
+    const bePast = document.getElementById('be-past');
+    const beParticiple = document.getElementById('be-participle');
+    const beMeaning = document.getElementById('be-meaning');
+
+    let beCorrect = checkInput(bePast, verbs.be.past) &&
+                       checkInput(beParticiple, verbs.be.participle) &&
+                       checkInput(beMeaning, verbs.be.meaning);
+
+    resultText += beCorrect ? "be: Correct!<br>" : "be: Incorrect.<br>";
+
+
+
+
+
     document.getElementById('result').innerHTML = resultText;
 }
