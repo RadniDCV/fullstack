@@ -20,3 +20,5 @@ if (verb1 === "act")
     console.log("You are acting")
 }
 
+let rows = []
+let rows1 = ["ejemplo1"]
