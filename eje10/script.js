@@ -2,8 +2,8 @@ function checkAnswers() {
     const verbs = {
         abide: {
             past: "abode",
-            participle: "abode",
-            meaning: "permanecer"
+            participle: "abiden",
+            meaning: "sufrir"
         },
         arise: {
             past: "arose",
@@ -85,6 +85,17 @@ function checkAnswers() {
                        checkInput(beMeaning, verbs.be.meaning);
 
     resultText += beCorrect ? "be: Correct!<br>" : "be: Incorrect.<br>";
+
+    // Verificar 'bear'
+    const bearPast = document.getElementById('bear-past');
+    const bearParticiple = document.getElementById('bear-participle');
+    const bearMeaning = document.getElementById('bear-meaning');
+
+    let bearCorrect = checkInput(bearPast, verbs.bear.past) &&
+                       checkInput(bearParticiple, verbs.bear.participle) &&
+                       checkInput(bearMeaning, verbs.bear.meaning);
+
+    resultText += beCorrect ? "bear: Correct!<br>" : "bear: Incorrect.<br>";
 
 
 
