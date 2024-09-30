@@ -25,6 +25,12 @@ function checkAnswers() {
             participle: "born",
             meaning: "soportar"
         },
+        beat:{
+            past: "beat",
+            participle: "beaten",
+            meaning: "golpear"
+        },
+
     };
 
     let resultText = "";
@@ -96,6 +102,17 @@ function checkAnswers() {
                        checkInput(bearMeaning, verbs.bear.meaning);
 
     resultText += beCorrect ? "bear: Correct!<br>" : "bear: Incorrect.<br>";
+   
+    // Verificar 'beat'
+    const beatPast = document.getElementById('beat-past');
+    const beatParticiple = document.getElementById('beat-participle');
+    const beatMeaning = document.getElementById('beat-meaning');
+
+    let beatCorrect = checkInput(beatPast, verbs.beat.past) &&
+                       checkInput(beatParticiple, verbs.beat.participle) &&
+                       checkInput(beatMeaning, verbs.beat.meaning);
+
+    resultText += beCorrect ? "beat: Correct!<br>" : "beat: Incorrect.<br>";
 
 
 
