@@ -30,6 +30,12 @@ function checkAnswers() {
             participle: "beaten",
             meaning: "golpear"
         },
+        becom:{
+            past: "became",
+            participle: "become",
+            meaning: "convertirse"
+        },
+        
 
     };
 
@@ -112,7 +118,18 @@ function checkAnswers() {
                        checkInput(beatParticiple, verbs.beat.participle) &&
                        checkInput(beatMeaning, verbs.beat.meaning);
 
-    resultText += beCorrect ? "beat: Correct!<br>" : "beat: Incorrect.<br>";
+    resultText += beatCorrect ? "beat: Correct!<br>" : "beat: Incorrect.<br>";
+
+    // Verificar 'becom'
+    const becomPast = document.getElementById('becom-past');
+    const becomParticiple = document.getElementById('becom-participle');
+    const becomMeaning = document.getElementById('becom-meaning');
+
+    let becomCorrect = checkInput(becomPast, verbs.becom.past) &&
+                       checkInput(becomParticiple, verbs.becom.participle) &&
+                       checkInput(becomMeaning, verbs.becom.meaning);
+
+    resultText += becomCorrect ? "becom: Correct!<br>" : "becom: Incorrect.<br>";
 
 
 
