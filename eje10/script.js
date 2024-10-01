@@ -36,6 +36,17 @@ function checkAnswers() {
             meaning: "convertirse"
         },
         
+        begin:{
+            past: "began",
+            participle: "begun",
+            meaning: "empezar"
+        },
+        bet:{
+            past: "bet",
+            participle: "bet",
+            meaning: "apostar"
+        },
+        
 
     };
 
@@ -130,6 +141,28 @@ function checkAnswers() {
                        checkInput(becomMeaning, verbs.becom.meaning);
 
     resultText += becomCorrect ? "becom: Correct!<br>" : "becom: Incorrect.<br>";
+
+    // Verificar 'begin'
+    const beginPast = document.getElementById('begin-past');
+    const beginParticiple = document.getElementById('begin-participle');
+    const beginMeaning = document.getElementById('begin-meaning');
+
+    let beginCorrect = checkInput(beginPast, verbs.begin.past) &&
+                       checkInput(beginParticiple, verbs.begin.participle) &&
+                       checkInput(beginMeaning, verbs.begin.meaning);
+
+    resultText += beginCorrect ? "begin: Correct!<br>" : "begin: Incorrect.<br>";
+
+    // Verificar 'bet'
+    const betPast = document.getElementById('bet-past');
+    const betParticiple = document.getElementById('bet-participle');
+    const betMeaning = document.getElementById('bet-meaning');
+
+    let betCorrect = checkInput(betPast, verbs.bet.past) &&
+                       checkInput(betParticiple, verbs.bet.participle) &&
+                       checkInput(betMeaning, verbs.bet.meaning);
+
+    resultText += betCorrect ? "bet: Correct!<br>" : "bet: Incorrect.<br>";
 
 
 
