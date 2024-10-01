@@ -46,6 +46,16 @@ function checkAnswers() {
             participle: "bet",
             meaning: "apostar"
         },
+        bend:{
+            past: "bent",
+            participle: "bent",
+            meaning: "torcer"
+        },
+        bid:{
+            past: "bid",
+            participle: "bid",
+            meaning: "ofrecer"
+        },
         
 
     };
@@ -163,6 +173,28 @@ function checkAnswers() {
                        checkInput(betMeaning, verbs.bet.meaning);
 
     resultText += betCorrect ? "bet: Correct!<br>" : "bet: Incorrect.<br>";
+
+    // Verificar 'bend'
+    const bendPast = document.getElementById('bend-past');
+    const bendParticiple = document.getElementById('bend-participle');
+    const bendMeaning = document.getElementById('bend-meaning');
+
+    let bendCorrect = checkInput(bendPast, verbs.bend.past) &&
+                       checkInput(bendParticiple, verbs.bend.participle) &&
+                       checkInput(bendMeaning, verbs.bend.meaning);
+
+    resultText += bendCorrect ? "bend: Correct!<br>" : "bend: Incorrect.<br>";
+
+    // Verificar 'bid'
+    const bidPast = document.getElementById('bid-past');
+    const bidParticiple = document.getElementById('bid-participle');
+    const bidMeaning = document.getElementById('bid-meaning');
+
+    let bidCorrect = checkInput(bidPast, verbs.bid.past) &&
+                       checkInput(bidParticiple, verbs.bid.participle) &&
+                       checkInput(bidMeaning, verbs.bid.meaning);
+
+    resultText += bidCorrect ? "bid: Correct!<br>" : "bid: Incorrect.<br>";
 
 
 
