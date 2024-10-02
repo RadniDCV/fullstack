@@ -57,6 +57,12 @@ function checkAnswers() {
             meaning: "ofrecer"
         },
         
+        bind:{
+            past: "bound",
+            participle: "bound",
+            meaning: "unir"
+        },
+        
 
     };
 
@@ -195,6 +201,17 @@ function checkAnswers() {
                        checkInput(bidMeaning, verbs.bid.meaning);
 
     resultText += bidCorrect ? "bid: Correct!<br>" : "bid: Incorrect.<br>";
+
+    // Verificar 'bind'
+    const bindPast = document.getElementById('bind-past');
+    const bindParticiple = document.getElementById('bind-participle');
+    const bindMeaning = document.getElementById('bind-meaning');
+
+    let bindCorrect = checkInput(bindPast, verbs.bind.past) &&
+                       checkInput(bindParticiple, verbs.bind.participle) &&
+                       checkInput(bindMeaning, verbs.bind.meaning);
+
+    resultText += bindCorrect ? "bind: Correct!<br>" : "bind: Incorrect.<br>";
 
 
 
