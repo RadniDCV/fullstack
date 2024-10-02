@@ -63,6 +63,28 @@ function checkAnswers() {
             meaning: "unir"
         },
         
+        bite:{
+            past: "bit",
+            participle: "bitten",
+            meaning: "morder"
+        },
+        bleed:{
+            past: "bled",
+            participle: "bled",
+            meaning: "Sangrar"
+        },
+        
+        blow:{
+            past: "blew",
+            participle: "blown",
+            meaning: "Soplar"
+        },
+        break:{
+            past: "broke",
+            participle: "broken",
+            meaning: "romper"
+        },
+        
 
     };
 
@@ -212,6 +234,50 @@ function checkAnswers() {
                        checkInput(bindMeaning, verbs.bind.meaning);
 
     resultText += bindCorrect ? "bind: Correct!<br>" : "bind: Incorrect.<br>";
+
+    // Verificar 'bite'
+    const bitePast = document.getElementById('bite-past');
+    const biteParticiple = document.getElementById('bite-participle');
+    const biteMeaning = document.getElementById('bite-meaning');
+
+    let biteCorrect = checkInput(bitePast, verbs.bite.past) &&
+                       checkInput(biteParticiple, verbs.bite.participle) &&
+                       checkInput(biteMeaning, verbs.bite.meaning);
+
+    resultText += biteCorrect ? "bite: Correct!<br>" : "bite: Incorrect.<br>";
+
+    // Verificar 'bleed'
+    const bleedPast = document.getElementById('bleed-past');
+    const bleedParticiple = document.getElementById('bleed-participle');
+    const bleedMeaning = document.getElementById('bleed-meaning');
+
+    let bleedCorrect = checkInput(bleedPast, verbs.bleed.past) &&
+                       checkInput(bleedParticiple, verbs.bleed.participle) &&
+                       checkInput(bleedMeaning, verbs.bleed.meaning);
+
+    resultText += bleedCorrect ? "bleed: Correct!<br>" : "bleed: Incorrect.<br>";
+
+    // Verificar 'blow'
+    const blowPast = document.getElementById('blow-past');
+    const blowParticiple = document.getElementById('blow-participle');
+    const blowMeaning = document.getElementById('blow-meaning');
+
+    let blowCorrect = checkInput(blowPast, verbs.blow.past) &&
+                       checkInput(blowParticiple, verbs.blow.participle) &&
+                       checkInput(blowMeaning, verbs.blow.meaning);
+
+    resultText += blowCorrect ? "blow: Correct!<br>" : "blow: Incorrect.<br>";
+
+    // Verificar 'break'
+    const breakPast = document.getElementById('break-past');
+    const breakParticiple = document.getElementById('break-participle');
+    const breakMeaning = document.getElementById('break-meaning');
+
+    let breakCorrect = checkInput(breakPast, verbs.break.past) &&
+                       checkInput(breakParticiple, verbs.break.participle) &&
+                       checkInput(breakMeaning, verbs.break.meaning);
+
+    resultText += breakCorrect ? "break: Correct!<br>" : "break: Incorrect.<br>";
 
 
 
