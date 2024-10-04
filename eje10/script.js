@@ -71,19 +71,56 @@ function checkAnswers() {
         bleed:{
             past: "bled",
             participle: "bled",
-            meaning: "Sangrar"
+            meaning: "sangrar"
         },
         
         blow:{
             past: "blew",
             participle: "blown",
-            meaning: "Soplar"
+            meaning: "soplar"
         },
         break:{
             past: "broke",
             participle: "broken",
             meaning: "romper"
         },
+        breed:{
+            past: "bred",
+            participle: "bred",
+            meaning: "criar"
+        },
+        bring:{
+            past: "brought",
+            participle: "brought",
+            meaning: "traer"
+        },
+        broadcast:{
+            past: "broadcast",
+            participle: "broadcast",
+            meaning: "transmitir"
+        },
+        build:{
+            past: "built",
+            participle: "built",
+            meaning: "construir"
+        },
+        burn:{
+            past: "burnt",
+            participle: "burnt",
+            meaning: "quemar"
+        },
+        burst:{
+            past: "burst",
+            participle: "burst",
+            meaning: "explotar"
+        },
+        buy:{
+            past: "bought",
+            participle: "bought",
+            meaning: "comprar"
+        },
+
+
         
 
     };
@@ -278,6 +315,83 @@ function checkAnswers() {
                        checkInput(breakMeaning, verbs.break.meaning);
 
     resultText += breakCorrect ? "break: Correct!<br>" : "break: Incorrect.<br>";
+    
+    // Verificar 'breed'
+    const breedPast = document.getElementById('breed-past');
+    const breedParticiple = document.getElementById('breed-participle');
+    const breedMeaning = document.getElementById('breed-meaning');
+
+    let breedCorrect = checkInput(breedPast, verbs.breed.past) &&
+                       checkInput(breedParticiple, verbs.breed.participle) &&
+                       checkInput(breedMeaning, verbs.breed.meaning);
+
+    resultText += breedCorrect ? "breed: Correct!<br>" : "breed: Incorrect.<br>";
+    
+    // Verificar 'bring'
+    const bringPast = document.getElementById('bring-past');
+    const bringParticiple = document.getElementById('bring-participle');
+    const bringMeaning = document.getElementById('bring-meaning');
+
+    let bringCorrect = checkInput(bringPast, verbs.bring.past) &&
+                       checkInput(bringParticiple, verbs.bring.participle) &&
+                       checkInput(bringMeaning, verbs.bring.meaning);
+
+    resultText += bringCorrect ? "bring: Correct!<br>" : "bring: Incorrect.<br>";
+
+    // Verificar 'broadcast'
+    const broadcastPast = document.getElementById('broadcast-past');
+    const broadcastParticiple = document.getElementById('broadcast-participle');
+    const broadcastMeaning = document.getElementById('broadcast-meaning');
+
+    let broadcastCorrect = checkInput(broadcastPast, verbs.broadcast.past) &&
+                       checkInput(broadcastParticiple, verbs.broadcast.participle) &&
+                       checkInput(broadcastMeaning, verbs.broadcast.meaning);
+
+    resultText += broadcastCorrect ? "broadcast: Correct!<br>" : "broadcast: Incorrect.<br>";
+    
+    // Verificar 'build'
+    const buildPast = document.getElementById('build-past');
+    const buildParticiple = document.getElementById('build-participle');
+    const buildMeaning = document.getElementById('build-meaning');
+
+    let buildCorrect = checkInput(buildPast, verbs.build.past) &&
+                       checkInput(buildParticiple, verbs.build.participle) &&
+                       checkInput(buildMeaning, verbs.build.meaning);
+
+    resultText += buildCorrect ? "build: Correct!<br>" : "build: Incorrect.<br>";
+    
+    // Verificar 'burn'
+    const burnPast = document.getElementById('burn-past');
+    const burnParticiple = document.getElementById('burn-participle');
+    const burnMeaning = document.getElementById('burn-meaning');
+
+    let burnCorrect = checkInput(burnPast, verbs.burn.past) &&
+                       checkInput(burnParticiple, verbs.burn.participle) &&
+                       checkInput(burnMeaning, verbs.burn.meaning);
+
+    resultText += burnCorrect ? "burn: Correct!<br>" : "burn: Incorrect.<br>";
+
+    // Verificar 'burst'
+    const burstPast = document.getElementById('burst-past');
+    const burstParticiple = document.getElementById('burst-participle');
+    const burstMeaning = document.getElementById('burst-meaning');
+
+    let burstCorrect = checkInput(burstPast, verbs.burst.past) &&
+                       checkInput(burstParticiple, verbs.burst.participle) &&
+                       checkInput(burstMeaning, verbs.burst.meaning);
+
+    resultText += burstCorrect ? "burst: Correct!<br>" : "burst: Incorrect.<br>";
+  
+    // Verificar 'buy'
+    const buyPast = document.getElementById('buy-past');
+    const buyParticiple = document.getElementById('buy-participle');
+    const buyMeaning = document.getElementById('buy-meaning');
+
+    let buyCorrect = checkInput(buyPast, verbs.buy.past) &&
+                       checkInput(buyParticiple, verbs.buy.participle) &&
+                       checkInput(buyMeaning, verbs.buy.meaning);
+
+    resultText += buyCorrect ? "buy: Correct!<br>" : "buy: Incorrect.<br>";
 
 
 
