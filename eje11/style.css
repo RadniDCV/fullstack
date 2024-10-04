@@ -13,7 +13,7 @@ body{
     background: url(bg.png) no-repeat;
     background-position: center;
     background-size: cover;
-    backdrop-filter: blur(55px)
+    backdrop-filter: blur(55px);
 
 }
 
@@ -22,4 +22,15 @@ h1{
     color: #484747;
     font-weight: 700;
     font-size: 3rem;
+    padding-bottom: 25px;
+}
+.container{
+    border: 2px #484747 solid;
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+
+    
 }
