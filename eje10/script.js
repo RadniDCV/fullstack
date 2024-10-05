@@ -119,6 +119,56 @@ function checkAnswers() {
             participle: "bought",
             meaning: "comprar"
         },
+        cast:{
+            past: "cast",
+            participle: "cast",
+            meaning: "lanzar"
+        },
+        catch:{
+            past: "caught",
+            participle: "caught",
+            meaning: "atrapar"
+        },
+        choose:{
+            past: "choset",
+            participle: "chosen",
+            meaning: "elegir"
+        },
+        clap:{
+            past: "clapt",
+            participle: "clapt",
+            meaning: "aplaudir"
+        },
+        cling:{
+            past: "clung",
+            participle: "clung",
+            meaning: "agarrase"
+        },
+        clothe:{
+            past: "clad",
+            participle: "clad",
+            meaning: "vestir"
+        },
+        come:{
+            past: "came",
+            participle: "come",
+            meaning: "venir"
+        },
+        cost:{
+            past: "cost",
+            participle: "cost",
+            meaning: "costar"
+        },
+        creep:{
+            past: "crept",
+            participle: "crept",
+            meaning: "gatear"
+        },
+        cut:{
+            past: "cut",
+            participle: "cut",
+            meaning: "cortar"
+        },
 
 
         
@@ -392,6 +442,116 @@ function checkAnswers() {
                        checkInput(buyMeaning, verbs.buy.meaning);
 
     resultText += buyCorrect ? "buy: Correct!<br>" : "buy: Incorrect.<br>";
+  
+    // Verificar 'cast'
+    const castPast = document.getElementById('cast-past');
+    const castParticiple = document.getElementById('cast-participle');
+    const castMeaning = document.getElementById('cast-meaning');
+
+    let castCorrect = checkInput(castPast, verbs.cast.past) &&
+                       checkInput(castParticiple, verbs.cast.participle) &&
+                       checkInput(castMeaning, verbs.cast.meaning);
+
+    resultText += castCorrect ? "cast: Correct!<br>" : "cast: Incorrect.<br>";
+    
+    // Verificar 'catch'
+    const catchPast = document.getElementById('catch-past');
+    const catchParticiple = document.getElementById('catch-participle');
+    const catchMeaning = document.getElementById('catch-meaning');
+
+    let catchCorrect = checkInput(catchPast, verbs.catch.past) &&
+                       checkInput(catchParticiple, verbs.catch.participle) &&
+                       checkInput(catchMeaning, verbs.catch.meaning);
+
+    resultText += catchCorrect ? "catch: Correct!<br>" : "catch: Incorrect.<br>";
+    
+    // Verificar 'choose'
+    const choosePast = document.getElementById('choose-past');
+    const chooseParticiple = document.getElementById('choose-participle');
+    const chooseMeaning = document.getElementById('choose-meaning');
+
+    let chooseCorrect = checkInput(choosePast, verbs.choose.past) &&
+                       checkInput(chooseParticiple, verbs.choose.participle) &&
+                       checkInput(chooseMeaning, verbs.choose.meaning);
+
+    resultText += chooseCorrect ? "choose: Correct!<br>" : "choose: Incorrect.<br>";
+    
+    // Verificar 'clap'
+    const clapPast = document.getElementById('clap-past');
+    const clapParticiple = document.getElementById('clap-participle');
+    const clapMeaning = document.getElementById('clap-meaning');
+
+    let clapCorrect = checkInput(clapPast, verbs.clap.past) &&
+                       checkInput(clapParticiple, verbs.clap.participle) &&
+                       checkInput(clapMeaning, verbs.clap.meaning);
+
+    resultText += clapCorrect ? "clap: Correct!<br>" : "clap: Incorrect.<br>";
+    
+    // Verificar 'cling'
+    const clingPast = document.getElementById('cling-past');
+    const clingParticiple = document.getElementById('cling-participle');
+    const clingMeaning = document.getElementById('cling-meaning');
+
+    let clingCorrect = checkInput(clingPast, verbs.cling.past) &&
+                       checkInput(clingParticiple, verbs.cling.participle) &&
+                       checkInput(clingMeaning, verbs.cling.meaning);
+
+    resultText += clingCorrect ? "cling: Correct!<br>" : "cling: Incorrect.<br>";
+    
+    // Verificar 'clothe'
+    const clothePast = document.getElementById('clothe-past');
+    const clotheParticiple = document.getElementById('clothe-participle');
+    const clotheMeaning = document.getElementById('clothe-meaning');
+
+    let clotheCorrect = checkInput(clothePast, verbs.clothe.past) &&
+                       checkInput(clotheParticiple, verbs.clothe.participle) &&
+                       checkInput(clotheMeaning, verbs.clothe.meaning);
+
+    resultText += clotheCorrect ? "clothe: Correct!<br>" : "clothe: Incorrect.<br>";
+    
+    // Verificar 'come'
+    const comePast = document.getElementById('come-past');
+    const comeParticiple = document.getElementById('come-participle');
+    const comeMeaning = document.getElementById('come-meaning');
+
+    let comeCorrect = checkInput(comePast, verbs.come.past) &&
+                       checkInput(comeParticiple, verbs.come.participle) &&
+                       checkInput(comeMeaning, verbs.come.meaning);
+
+    resultText += comeCorrect ? "come: Correct!<br>" : "come: Incorrect.<br>";
+    
+    // Verificar 'cost'
+    const costPast = document.getElementById('cost-past');
+    const costParticiple = document.getElementById('cost-participle');
+    const costMeaning = document.getElementById('cost-meaning');
+
+    let costCorrect = checkInput(costPast, verbs.cost.past) &&
+                       checkInput(costParticiple, verbs.cost.participle) &&
+                       checkInput(costMeaning, verbs.cost.meaning);
+
+    resultText += costCorrect ? "cost: Correct!<br>" : "cost: Incorrect.<br>";
+    
+    // Verificar 'creep'
+    const creepPast = document.getElementById('creep-past');
+    const creepParticiple = document.getElementById('creep-participle');
+    const creepMeaning = document.getElementById('creep-meaning');
+
+    let creepCorrect = checkInput(creepPast, verbs.creep.past) &&
+                       checkInput(creepParticiple, verbs.creep.participle) &&
+                       checkInput(creepMeaning, verbs.creep.meaning);
+
+    resultText += creepCorrect ? "creep: Correct!<br>" : "creep: Incorrect.<br>";
+    
+    // Verificar 'cut'
+    const cutPast = document.getElementById('cut-past');
+    const cutParticiple = document.getElementById('cut-participle');
+    const cutMeaning = document.getElementById('cut-meaning');
+
+    let cutCorrect = checkInput(cutPast, verbs.cut.past) &&
+                       checkInput(cutParticiple, verbs.cut.participle) &&
+                       checkInput(cutMeaning, verbs.cut.meaning);
+
+    resultText += cutCorrect ? "cut: Correct!<br>" : "cut: Incorrect.<br>";
 
 
 
