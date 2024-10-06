@@ -169,6 +169,51 @@ function checkAnswers() {
             participle: "cut",
             meaning: "cortar"
         },
+        deal:{
+            past: "dealt",
+            participle: "dealt",
+            meaning: "repartir"
+        },
+        dig:{
+            past: "dug",
+            participle: "dug",
+            meaning: "cavar"
+        },
+        dive:{
+            past: "dove",
+            participle: "dived",
+            meaning: "bucear"
+        },
+        do:{
+            past: "did",
+            participle: "done",
+            meaning: "hacer"
+        },
+        draw:{
+            past: "drew",
+            participle: "drawn",
+            meaning: "dibujar"
+        },
+        dream:{
+            past: "dreamt",
+            participle: "dreamt",
+            meaning: "soñar"
+        },
+        drink:{
+            past: "drank",
+            participle: "drunk",
+            meaning: "beber"
+        },
+        drive:{
+            past: "drove",
+            participle: "driven",
+            meaning: "conducir"
+        },
+        dwell:{
+            past: "dwelt",
+            participle: "dwelt",
+            meaning: "habilitar"
+        },
 
 
         
@@ -552,6 +597,105 @@ function checkAnswers() {
                        checkInput(cutMeaning, verbs.cut.meaning);
 
     resultText += cutCorrect ? "cut: Correct!<br>" : "cut: Incorrect.<br>";
+    
+    // Verificar 'deal'
+    const dealPast = document.getElementById('deal-past');
+    const dealParticiple = document.getElementById('deal-participle');
+    const dealMeaning = document.getElementById('deal-meaning');
+
+    let dealCorrect = checkInput(dealPast, verbs.deal.past) &&
+                       checkInput(dealParticiple, verbs.deal.participle) &&
+                       checkInput(dealMeaning, verbs.deal.meaning);
+
+    resultText += dealCorrect ? "deal: Correct!<br>" : "deal: Incorrect.<br>";
+    
+    // Verificar 'dig'
+    const digPast = document.getElementById('dig-past');
+    const digParticiple = document.getElementById('dig-participle');
+    const digMeaning = document.getElementById('dig-meaning');
+
+    let digCorrect = checkInput(digPast, verbs.dig.past) &&
+                       checkInput(digParticiple, verbs.dig.participle) &&
+                       checkInput(digMeaning, verbs.dig.meaning);
+
+    resultText += digCorrect ? "dig: Correct!<br>" : "dig: Incorrect.<br>";
+    
+    // Verificar 'dive'
+    const divePast = document.getElementById('dive-past');
+    const diveParticiple = document.getElementById('dive-participle');
+    const diveMeaning = document.getElementById('dive-meaning');
+
+    let diveCorrect = checkInput(divePast, verbs.dive.past) &&
+                       checkInput(diveParticiple, verbs.dive.participle) &&
+                       checkInput(diveMeaning, verbs.dive.meaning);
+
+    resultText += diveCorrect ? "dive: Correct!<br>" : "dive: Incorrect.<br>";
+    
+    // Verificar 'do'
+    const doPast = document.getElementById('do-past');
+    const doParticiple = document.getElementById('do-participle');
+    const doMeaning = document.getElementById('do-meaning');
+
+    let doCorrect = checkInput(doPast, verbs.do.past) &&
+                       checkInput(doParticiple, verbs.do.participle) &&
+                       checkInput(doMeaning, verbs.do.meaning);
+
+    resultText += doCorrect ? "do: Correct!<br>" : "do: Incorrect.<br>";
+    
+    // Verificar 'draw'
+    const drawPast = drawcument.getElementById('draw-past');
+    const drawParticiple = drawcument.getElementById('draw-participle');
+    const drawMeaning = drawcument.getElementById('draw-meaning');
+
+    let drawCorrect = checkInput(drawPast, verbs.draw.past) &&
+                       checkInput(drawParticiple, verbs.draw.participle) &&
+                       checkInput(drawMeaning, verbs.draw.meaning);
+
+    resultText += drawCorrect ? "draw: Correct!<br>" : "draw: Incorrect.<br>";
+    
+    // Verificar 'dream'
+    const dreamPast = dreamcument.getElementById('dream-past');
+    const dreamParticiple = dreamcument.getElementById('dream-participle');
+    const dreamMeaning = dreamcument.getElementById('dream-meaning');
+
+    let dreamCorrect = checkInput(dreamPast, verbs.dream.past) &&
+                       checkInput(dreamParticiple, verbs.dream.participle) &&
+                       checkInput(dreamMeaning, verbs.dream.meaning);
+
+    resultText += dreamCorrect ? "dream: Correct!<br>" : "dream: Incorrect.<br>";
+    
+    // Verificar 'drink'
+    const drinkPast = drinkcument.getElementById('drink-past');
+    const drinkParticiple = drinkcument.getElementById('drink-participle');
+    const drinkMeaning = drinkcument.getElementById('drink-meaning');
+
+    let drinkCorrect = checkInput(drinkPast, verbs.drink.past) &&
+                       checkInput(drinkParticiple, verbs.drink.participle) &&
+                       checkInput(drinkMeaning, verbs.drink.meaning);
+
+    resultText += drinkCorrect ? "drink: Correct!<br>" : "drink: Incorrect.<br>";
+    
+    // Verificar 'drive'
+    const drivePast = drivecument.getElementById('drive-past');
+    const driveParticiple = drivecument.getElementById('drive-participle');
+    const driveMeaning = drivecument.getElementById('drive-meaning');
+
+    let driveCorrect = checkInput(drivePast, verbs.drive.past) &&
+                       checkInput(driveParticiple, verbs.drive.participle) &&
+                       checkInput(driveMeaning, verbs.drive.meaning);
+
+    resultText += driveCorrect ? "drive: Correct!<br>" : "drive: Incorrect.<br>";
+    
+    // Verificar 'dwell'
+    const dwellPast = dwellcument.getElementById('dwell-past');
+    const dwellParticiple = dwellcument.getElementById('dwell-participle');
+    const dwellMeaning = dwellcument.getElementById('dwell-meaning');
+
+    let dwellCorrect = checkInput(dwellPast, verbs.dwell.past) &&
+                       checkInput(dwellParticiple, verbs.dwell.participle) &&
+                       checkInput(dwellMeaning, verbs.dwell.meaning);
+
+    resultText += dwellCorrect ? "dwell: Correct!<br>" : "dwell: Incorrect.<br>";
 
 
 
