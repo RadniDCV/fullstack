@@ -229,6 +229,12 @@ function checkAnswers() {
             participle: "fed",
             meaning: "alimentar"
         },
+        feel:{
+            past: "felt",
+            participle: "felt",
+            meaning: "sentir"
+        },
+
         fight:{
             past: "fought",
             participle: "fought",
@@ -781,6 +787,204 @@ function checkAnswers() {
                        checkInput(dwellMeaning, verbs.dwell.meaning);
 
     resultText += dwellCorrect ? "dwell: Correct!<br>" : "dwell: Incorrect.<br>";
+    
+    // Verificar 'eat'
+    const eatPast = eatcument.getElementById('eat-past');
+    const eatParticiple = eatcument.getElementById('eat-participle');
+    const eatMeaning = eatcument.getElementById('eat-meaning');
+
+    let eatCorrect = checkInput(eatPast, verbs.eat.past) &&
+                       checkInput(eatParticiple, verbs.eat.participle) &&
+                       checkInput(eatMeaning, verbs.eat.meaning);
+
+    resultText += eatCorrect ? "eat: Correct!<br>" : "eat: Incorrect.<br>";
+    
+    // Verificar 'fall'
+    const fallPast = fallcument.getElementById('fall-past');
+    const fallParticiple = fallcument.getElementById('fall-participle');
+    const fallMeaning = fallcument.getElementById('fall-meaning');
+
+    let fallCorrect = checkInput(fallPast, verbs.fall.past) &&
+                       checkInput(fallParticiple, verbs.fall.participle) &&
+                       checkInput(fallMeaning, verbs.fall.meaning);
+
+    resultText += fallCorrect ? "fall: Correct!<br>" : "fall: Incorrect.<br>";
+    
+    // Verificar 'feed'
+    const feedPast = feedcument.getElementById('feed-past');
+    const feedParticiple = feedcument.getElementById('feed-participle');
+    const feedMeaning = feedcument.getElementById('feed-meaning');
+
+    let feedCorrect = checkInput(feedPast, verbs.feed.past) &&
+                       checkInput(feedParticiple, verbs.feed.participle) &&
+                       checkInput(feedMeaning, verbs.feed.meaning);
+
+    resultText += feedCorrect ? "feed: Correct!<br>" : "feed: Incorrect.<br>";
+    
+    // Verificar 'feel'
+    const feelPast = feelcument.getElementById('feel-past');
+    const feelParticiple = feelcument.getElementById('feel-participle');
+    const feelMeaning = feelcument.getElementById('feel-meaning');
+
+    let feelCorrect = checkInput(feelPast, verbs.feel.past) &&
+                       checkInput(feelParticiple, verbs.feel.participle) &&
+                       checkInput(feelMeaning, verbs.feel.meaning);
+
+    resultText += feelCorrect ? "feel: Correct!<br>" : "feel: Incorrect.<br>";
+    
+    // Verificar 'fight'
+    const fightPast = fightcument.getElementById('fight-past');
+    const fightParticiple = fightcument.getElementById('fight-participle');
+    const fightMeaning = fightcument.getElementById('fight-meaning');
+
+    let fightCorrect = checkInput(fightPast, verbs.fight.past) &&
+                       checkInput(fightParticiple, verbs.fight.participle) &&
+                       checkInput(fightMeaning, verbs.fight.meaning);
+
+    resultText += fightCorrect ? "fight: Correct!<br>" : "fight: Incorrect.<br>";
+    
+    // Verificar 'find'
+    const findPast = findcument.getElementById('find-past');
+    const findParticiple = findcument.getElementById('find-participle');
+    const findMeaning = findcument.getElementById('find-meaning');
+
+    let findCorrect = checkInput(findPast, verbs.find.past) &&
+                       checkInput(findParticiple, verbs.find.participle) &&
+                       checkInput(findMeaning, verbs.find.meaning);
+
+    resultText += findCorrect ? "find: Correct!<br>" : "find: Incorrect.<br>";
+    
+    // Verificar 'flee'
+    const fleePast = fleecument.getElementById('flee-past');
+    const fleeParticiple = fleecument.getElementById('flee-participle');
+    const fleeMeaning = fleecument.getElementById('flee-meaning');
+
+    let fleeCorrect = checkInput(fleePast, verbs.flee.past) &&
+                       checkInput(fleeParticiple, verbs.flee.participle) &&
+                       checkInput(fleeMeaning, verbs.flee.meaning);
+
+    resultText += fleeCorrect ? "flee: Correct!<br>" : "flee: Incorrect.<br>";
+    
+    // Verificar 'fling'
+    const flingPast = flingcument.getElementById('fling-past');
+    const flingParticiple = flingcument.getElementById('fling-participle');
+    const flingMeaning = flingcument.getElementById('fling-meaning');
+
+    let flingCorrect = checkInput(flingPast, verbs.fling.past) &&
+                       checkInput(flingParticiple, verbs.fling.participle) &&
+                       checkInput(flingMeaning, verbs.fling.meaning);
+
+    resultText += flingCorrect ? "fling: Correct!<br>" : "fling: Incorrect.<br>";
+    
+    // Verificar 'fly'
+    const flyPast = flycument.getElementById('fly-past');
+    const flyParticiple = flycument.getElementById('fly-participle');
+    const flyMeaning = flycument.getElementById('fly-meaning');
+
+    let flyCorrect = checkInput(flyPast, verbs.fly.past) &&
+                       checkInput(flyParticiple, verbs.fly.participle) &&
+                       checkInput(flyMeaning, verbs.fly.meaning);
+
+    resultText += flyCorrect ? "fly: Correct!<br>" : "fly: Incorrect.<br>";
+    
+    // Verificar 'forbid'
+    const forbidPast = forbidcument.getElementById('forbid-past');
+    const forbidParticiple = forbidcument.getElementById('forbid-participle');
+    const forbidMeaning = forbidcument.getElementById('forbid-meaning');
+
+    let forbidCorrect = checkInput(forbidPast, verbs.forbid.past) &&
+                       checkInput(forbidParticiple, verbs.forbid.participle) &&
+                       checkInput(forbidMeaning, verbs.forbid.meaning);
+
+    resultText += forbidCorrect ? "forbid: Correct!<br>" : "forbid: Incorrect.<br>";
+    
+    // Verificar 'forecast'
+    const forecastPast = forecastcument.getElementById('forecast-past');
+    const forecastParticiple = forecastcument.getElementById('forecast-participle');
+    const forecastMeaning = forecastcument.getElementById('forecast-meaning');
+
+    let forecastCorrect = checkInput(forecastPast, verbs.forecast.past) &&
+                       checkInput(forecastParticiple, verbs.forecast.participle) &&
+                       checkInput(forecastMeaning, verbs.forecast.meaning);
+
+    resultText += forecastCorrect ? "forecast: Correct!<br>" : "forecast: Incorrect.<br>";
+    
+    // Verificar 'foresee'
+    const foreseePast = foreseecument.getElementById('foresee-past');
+    const foreseeParticiple = foreseecument.getElementById('foresee-participle');
+    const foreseeMeaning = foreseecument.getElementById('foresee-meaning');
+
+    let foreseeCorrect = checkInput(foreseePast, verbs.foresee.past) &&
+                       checkInput(foreseeParticiple, verbs.foresee.participle) &&
+                       checkInput(foreseeMeaning, verbs.foresee.meaning);
+
+    resultText += foreseeCorrect ? "foresee: Correct!<br>" : "foresee: Incorrect.<br>";
+    
+    // Verificar 'foretell'
+    const foretellPast = foretellcument.getElementById('foretell-past');
+    const foretellParticiple = foretellcument.getElementById('foretell-participle');
+    const foretellMeaning = foretellcument.getElementById('foretell-meaning');
+
+    let foretellCorrect = checkInput(foretellPast, verbs.foretell.past) &&
+                       checkInput(foretellParticiple, verbs.foretell.participle) &&
+                       checkInput(foretellMeaning, verbs.foretell.meaning);
+
+    resultText += foretellCorrect ? "foretell: Correct!<br>" : "foretell: Incorrect.<br>";
+    
+    // Verificar 'forget'
+    const forgetPast = forgetcument.getElementById('forget-past');
+    const forgetParticiple = forgetcument.getElementById('forget-participle');
+    const forgetMeaning = forgetcument.getElementById('forget-meaning');
+
+    let forgetCorrect = checkInput(forgetPast, verbs.forget.past) &&
+                       checkInput(forgetParticiple, verbs.forget.participle) &&
+                       checkInput(forgetMeaning, verbs.forget.meaning);
+
+    resultText += forgetCorrect ? "forget: Correct!<br>" : "forget: Incorrect.<br>";
+    
+    // Verificar 'forgive'
+    const forgivePast = forgivecument.getElementById('forgive-past');
+    const forgiveParticiple = forgivecument.getElementById('forgive-participle');
+    const forgiveMeaning = forgivecument.getElementById('forgive-meaning');
+
+    let forgiveCorrect = checkInput(forgivePast, verbs.forgive.past) &&
+                       checkInput(forgiveParticiple, verbs.forgive.participle) &&
+                       checkInput(forgiveMeaning, verbs.forgive.meaning);
+
+    resultText += forgiveCorrect ? "forgive: Correct!<br>" : "forgive: Incorrect.<br>";
+    
+    // Verificar 'forsake'
+    const forsakePast = forsakecument.getElementById('forsake-past');
+    const forsakeParticiple = forsakecument.getElementById('forsake-participle');
+    const forsakeMeaning = forsakecument.getElementById('forsake-meaning');
+
+    let forsakeCorrect = checkInput(forsakePast, verbs.forsake.past) &&
+                       checkInput(forsakeParticiple, verbs.forsake.participle) &&
+                       checkInput(forsakeMeaning, verbs.forsake.meaning);
+
+    resultText += forsakeCorrect ? "forsake: Correct!<br>" : "forsake: Incorrect.<br>";
+    
+    // Verificar 'freeze'
+    const freezePast = freezecument.getElementById('freeze-past');
+    const freezeParticiple = freezecument.getElementById('freeze-participle');
+    const freezeMeaning = freezecument.getElementById('freeze-meaning');
+
+    let freezeCorrect = checkInput(freezePast, verbs.freeze.past) &&
+                       checkInput(freezeParticiple, verbs.freeze.participle) &&
+                       checkInput(freezeMeaning, verbs.freeze.meaning);
+
+    resultText += freezeCorrect ? "freeze: Correct!<br>" : "freeze: Incorrect.<br>";
+    
+    // Verificar 'get'
+    const getPast = getcument.getElementById('get-past');
+    const getParticiple = getcument.getElementById('get-participle');
+    const getMeaning = getcument.getElementById('get-meaning');
+
+    let getCorrect = checkInput(getPast, verbs.get.past) &&
+                       checkInput(getParticiple, verbs.get.participle) &&
+                       checkInput(getMeaning, verbs.get.meaning);
+
+    resultText += getCorrect ? "get: Correct!<br>" : "get: Incorrect.<br>";
 
 
 
