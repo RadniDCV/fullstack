@@ -214,6 +214,91 @@ function checkAnswers() {
             participle: "dwelt",
             meaning: "habilitar"
         },
+        eat:{
+            past: "ate",
+            participle: "eaten",
+            meaning: "comer"
+        },
+        fall:{
+            past: "fell",
+            participle: "fallen",
+            meaning: "caer"
+        },
+        feed:{
+            past: "fed",
+            participle: "fed",
+            meaning: "alimentar"
+        },
+        fight:{
+            past: "fought",
+            participle: "fought",
+            meaning: "pelear"
+        },
+        find:{
+            past: "found",
+            participle: "found",
+            meaning: "encontrar"
+        },
+        flee:{
+            past: "fled",
+            participle: "fled",
+            meaning: "huir"
+        },
+        fling:{
+            past: "flung",
+            participle: "flung",
+            meaning: "arrojar"
+        },
+        fly:{
+            past: "flew",
+            participle: "flown",
+            meaning: "volar"
+        },
+        forbid:{
+            past: "forbade",
+            participle: "forbidden",
+            meaning: "prohibir"
+        },
+        forecast:{
+            past: "forecast",
+            participle: "forecast",
+            meaning: "pronosticar"
+        },
+        foresee:{
+            past: "foresaw",
+            participle: "foreseen",
+            meaning: "preveer"
+        },
+        foretell:{
+            past: "foretold",
+            participle: "foretold",
+            meaning: "predecir"
+        },
+        forget:{
+            past: "forgot",
+            participle: "forgotten",
+            meaning: "olvidar"
+        },
+        forgive:{
+            past: "forgave",
+            participle: "forgiven",
+            meaning: "perdonar"
+        },
+        forsake:{
+            past: "forsook",
+            participle: "forsaken",
+            meaning: "abandonar"
+        },
+        freeze:{
+            past: "froze",
+            participle: "frozen",
+            meaning: "congelar"
+        },
+        get:{
+            past: "got",
+            participle: "gotten",
+            meaning: "conseguir"
+        },
 
 
         
