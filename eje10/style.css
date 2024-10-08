@@ -5,3 +5,8 @@
 .input-correct {
     border: 2px solid green;
 }
+
+body{
+    padding-left: 25px;
+    padding-right: 25px;
+}

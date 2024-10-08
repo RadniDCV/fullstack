@@ -305,6 +305,61 @@ function checkAnswers() {
             participle: "gotten",
             meaning: "conseguir"
         },
+        give:{
+            past: "gave",
+            participle: "given",
+            meaning: "dar"
+        },
+        go:{
+            past: "went",
+            participle: "gone",
+            meaning: "ir"
+        },
+        grind:{
+            past: "ground",
+            participle: "ground",
+            meaning: "moler"
+        },
+        handwrite:{
+            past: "handwrote",
+            participle: "handwritten",
+            meaning: "escribir a mano"
+        },
+        hang:{
+            past: "hung",
+            participle: "hung",
+            meaning: "colgar"
+        },
+        have:{
+            past: "had",
+            participle: "had",
+            meaning: "tener"
+        },
+        hear:{
+            past: "heard",
+            participle: "heard",
+            meaning: "oir"
+        },
+        hide:{
+            past: "hid",
+            participle: "hidden",
+            meaning: "esconderse"
+        },
+        hit:{
+            past: "hit",
+            participle: "hit",
+            meaning: "golpear"
+        },
+        hold:{
+            past: "held",
+            participle: "held",
+            meaning: "sostener"
+        },
+        hurt:{
+            past: "hurt",
+            participle: "hurt",
+            meaning: "hurt"
+        },
 
 
         
@@ -734,9 +789,9 @@ function checkAnswers() {
     resultText += doCorrect ? "do: Correct!<br>" : "do: Incorrect.<br>";
     
     // Verificar 'draw'
-    const drawPast = drawcument.getElementById('draw-past');
-    const drawParticiple = drawcument.getElementById('draw-participle');
-    const drawMeaning = drawcument.getElementById('draw-meaning');
+    const drawPast = document.getElementById('draw-past');
+    const drawParticiple = document.getElementById('draw-participle');
+    const drawMeaning = document.getElementById('draw-meaning');
 
     let drawCorrect = checkInput(drawPast, verbs.draw.past) &&
                        checkInput(drawParticiple, verbs.draw.participle) &&
@@ -745,9 +800,9 @@ function checkAnswers() {
     resultText += drawCorrect ? "draw: Correct!<br>" : "draw: Incorrect.<br>";
     
     // Verificar 'dream'
-    const dreamPast = dreamcument.getElementById('dream-past');
-    const dreamParticiple = dreamcument.getElementById('dream-participle');
-    const dreamMeaning = dreamcument.getElementById('dream-meaning');
+    const dreamPast = document.getElementById('dream-past');
+    const dreamParticiple = document.getElementById('dream-participle');
+    const dreamMeaning = document.getElementById('dream-meaning');
 
     let dreamCorrect = checkInput(dreamPast, verbs.dream.past) &&
                        checkInput(dreamParticiple, verbs.dream.participle) &&
@@ -756,9 +811,9 @@ function checkAnswers() {
     resultText += dreamCorrect ? "dream: Correct!<br>" : "dream: Incorrect.<br>";
     
     // Verificar 'drink'
-    const drinkPast = drinkcument.getElementById('drink-past');
-    const drinkParticiple = drinkcument.getElementById('drink-participle');
-    const drinkMeaning = drinkcument.getElementById('drink-meaning');
+    const drinkPast = document.getElementById('drink-past');
+    const drinkParticiple = document.getElementById('drink-participle');
+    const drinkMeaning = document.getElementById('drink-meaning');
 
     let drinkCorrect = checkInput(drinkPast, verbs.drink.past) &&
                        checkInput(drinkParticiple, verbs.drink.participle) &&
@@ -767,9 +822,9 @@ function checkAnswers() {
     resultText += drinkCorrect ? "drink: Correct!<br>" : "drink: Incorrect.<br>";
     
     // Verificar 'drive'
-    const drivePast = drivecument.getElementById('drive-past');
-    const driveParticiple = drivecument.getElementById('drive-participle');
-    const driveMeaning = drivecument.getElementById('drive-meaning');
+    const drivePast = document.getElementById('drive-past');
+    const driveParticiple = document.getElementById('drive-participle');
+    const driveMeaning = document.getElementById('drive-meaning');
 
     let driveCorrect = checkInput(drivePast, verbs.drive.past) &&
                        checkInput(driveParticiple, verbs.drive.participle) &&
@@ -778,9 +833,9 @@ function checkAnswers() {
     resultText += driveCorrect ? "drive: Correct!<br>" : "drive: Incorrect.<br>";
     
     // Verificar 'dwell'
-    const dwellPast = dwellcument.getElementById('dwell-past');
-    const dwellParticiple = dwellcument.getElementById('dwell-participle');
-    const dwellMeaning = dwellcument.getElementById('dwell-meaning');
+    const dwellPast = document.getElementById('dwell-past');
+    const dwellParticiple = document.getElementById('dwell-participle');
+    const dwellMeaning = document.getElementById('dwell-meaning');
 
     let dwellCorrect = checkInput(dwellPast, verbs.dwell.past) &&
                        checkInput(dwellParticiple, verbs.dwell.participle) &&
@@ -789,9 +844,9 @@ function checkAnswers() {
     resultText += dwellCorrect ? "dwell: Correct!<br>" : "dwell: Incorrect.<br>";
     
     // Verificar 'eat'
-    const eatPast = eatcument.getElementById('eat-past');
-    const eatParticiple = eatcument.getElementById('eat-participle');
-    const eatMeaning = eatcument.getElementById('eat-meaning');
+    const eatPast = document.getElementById('eat-past');
+    const eatParticiple = document.getElementById('eat-participle');
+    const eatMeaning = document.getElementById('eat-meaning');
 
     let eatCorrect = checkInput(eatPast, verbs.eat.past) &&
                        checkInput(eatParticiple, verbs.eat.participle) &&
@@ -800,9 +855,9 @@ function checkAnswers() {
     resultText += eatCorrect ? "eat: Correct!<br>" : "eat: Incorrect.<br>";
     
     // Verificar 'fall'
-    const fallPast = fallcument.getElementById('fall-past');
-    const fallParticiple = fallcument.getElementById('fall-participle');
-    const fallMeaning = fallcument.getElementById('fall-meaning');
+    const fallPast = document.getElementById('fall-past');
+    const fallParticiple = document.getElementById('fall-participle');
+    const fallMeaning = document.getElementById('fall-meaning');
 
     let fallCorrect = checkInput(fallPast, verbs.fall.past) &&
                        checkInput(fallParticiple, verbs.fall.participle) &&
@@ -811,9 +866,9 @@ function checkAnswers() {
     resultText += fallCorrect ? "fall: Correct!<br>" : "fall: Incorrect.<br>";
     
     // Verificar 'feed'
-    const feedPast = feedcument.getElementById('feed-past');
-    const feedParticiple = feedcument.getElementById('feed-participle');
-    const feedMeaning = feedcument.getElementById('feed-meaning');
+    const feedPast = document.getElementById('feed-past');
+    const feedParticiple = document.getElementById('feed-participle');
+    const feedMeaning = document.getElementById('feed-meaning');
 
     let feedCorrect = checkInput(feedPast, verbs.feed.past) &&
                        checkInput(feedParticiple, verbs.feed.participle) &&
@@ -822,9 +877,9 @@ function checkAnswers() {
     resultText += feedCorrect ? "feed: Correct!<br>" : "feed: Incorrect.<br>";
     
     // Verificar 'feel'
-    const feelPast = feelcument.getElementById('feel-past');
-    const feelParticiple = feelcument.getElementById('feel-participle');
-    const feelMeaning = feelcument.getElementById('feel-meaning');
+    const feelPast = document.getElementById('feel-past');
+    const feelParticiple = document.getElementById('feel-participle');
+    const feelMeaning = document.getElementById('feel-meaning');
 
     let feelCorrect = checkInput(feelPast, verbs.feel.past) &&
                        checkInput(feelParticiple, verbs.feel.participle) &&
@@ -833,9 +888,9 @@ function checkAnswers() {
     resultText += feelCorrect ? "feel: Correct!<br>" : "feel: Incorrect.<br>";
     
     // Verificar 'fight'
-    const fightPast = fightcument.getElementById('fight-past');
-    const fightParticiple = fightcument.getElementById('fight-participle');
-    const fightMeaning = fightcument.getElementById('fight-meaning');
+    const fightPast = document.getElementById('fight-past');
+    const fightParticiple = document.getElementById('fight-participle');
+    const fightMeaning = document.getElementById('fight-meaning');
 
     let fightCorrect = checkInput(fightPast, verbs.fight.past) &&
                        checkInput(fightParticiple, verbs.fight.participle) &&
@@ -844,9 +899,9 @@ function checkAnswers() {
     resultText += fightCorrect ? "fight: Correct!<br>" : "fight: Incorrect.<br>";
     
     // Verificar 'find'
-    const findPast = findcument.getElementById('find-past');
-    const findParticiple = findcument.getElementById('find-participle');
-    const findMeaning = findcument.getElementById('find-meaning');
+    const findPast = document.getElementById('find-past');
+    const findParticiple = document.getElementById('find-participle');
+    const findMeaning = document.getElementById('find-meaning');
 
     let findCorrect = checkInput(findPast, verbs.find.past) &&
                        checkInput(findParticiple, verbs.find.participle) &&
@@ -855,9 +910,9 @@ function checkAnswers() {
     resultText += findCorrect ? "find: Correct!<br>" : "find: Incorrect.<br>";
     
     // Verificar 'flee'
-    const fleePast = fleecument.getElementById('flee-past');
-    const fleeParticiple = fleecument.getElementById('flee-participle');
-    const fleeMeaning = fleecument.getElementById('flee-meaning');
+    const fleePast = document.getElementById('flee-past');
+    const fleeParticiple = document.getElementById('flee-participle');
+    const fleeMeaning = document.getElementById('flee-meaning');
 
     let fleeCorrect = checkInput(fleePast, verbs.flee.past) &&
                        checkInput(fleeParticiple, verbs.flee.participle) &&
@@ -866,9 +921,9 @@ function checkAnswers() {
     resultText += fleeCorrect ? "flee: Correct!<br>" : "flee: Incorrect.<br>";
     
     // Verificar 'fling'
-    const flingPast = flingcument.getElementById('fling-past');
-    const flingParticiple = flingcument.getElementById('fling-participle');
-    const flingMeaning = flingcument.getElementById('fling-meaning');
+    const flingPast = document.getElementById('fling-past');
+    const flingParticiple = document.getElementById('fling-participle');
+    const flingMeaning = document.getElementById('fling-meaning');
 
     let flingCorrect = checkInput(flingPast, verbs.fling.past) &&
                        checkInput(flingParticiple, verbs.fling.participle) &&
@@ -877,9 +932,9 @@ function checkAnswers() {
     resultText += flingCorrect ? "fling: Correct!<br>" : "fling: Incorrect.<br>";
     
     // Verificar 'fly'
-    const flyPast = flycument.getElementById('fly-past');
-    const flyParticiple = flycument.getElementById('fly-participle');
-    const flyMeaning = flycument.getElementById('fly-meaning');
+    const flyPast = document.getElementById('fly-past');
+    const flyParticiple = document.getElementById('fly-participle');
+    const flyMeaning = document.getElementById('fly-meaning');
 
     let flyCorrect = checkInput(flyPast, verbs.fly.past) &&
                        checkInput(flyParticiple, verbs.fly.participle) &&
@@ -888,9 +943,9 @@ function checkAnswers() {
     resultText += flyCorrect ? "fly: Correct!<br>" : "fly: Incorrect.<br>";
     
     // Verificar 'forbid'
-    const forbidPast = forbidcument.getElementById('forbid-past');
-    const forbidParticiple = forbidcument.getElementById('forbid-participle');
-    const forbidMeaning = forbidcument.getElementById('forbid-meaning');
+    const forbidPast = document.getElementById('forbid-past');
+    const forbidParticiple = document.getElementById('forbid-participle');
+    const forbidMeaning = document.getElementById('forbid-meaning');
 
     let forbidCorrect = checkInput(forbidPast, verbs.forbid.past) &&
                        checkInput(forbidParticiple, verbs.forbid.participle) &&
@@ -899,9 +954,9 @@ function checkAnswers() {
     resultText += forbidCorrect ? "forbid: Correct!<br>" : "forbid: Incorrect.<br>";
     
     // Verificar 'forecast'
-    const forecastPast = forecastcument.getElementById('forecast-past');
-    const forecastParticiple = forecastcument.getElementById('forecast-participle');
-    const forecastMeaning = forecastcument.getElementById('forecast-meaning');
+    const forecastPast = document.getElementById('forecast-past');
+    const forecastParticiple = document.getElementById('forecast-participle');
+    const forecastMeaning = document.getElementById('forecast-meaning');
 
     let forecastCorrect = checkInput(forecastPast, verbs.forecast.past) &&
                        checkInput(forecastParticiple, verbs.forecast.participle) &&
@@ -910,9 +965,9 @@ function checkAnswers() {
     resultText += forecastCorrect ? "forecast: Correct!<br>" : "forecast: Incorrect.<br>";
     
     // Verificar 'foresee'
-    const foreseePast = foreseecument.getElementById('foresee-past');
-    const foreseeParticiple = foreseecument.getElementById('foresee-participle');
-    const foreseeMeaning = foreseecument.getElementById('foresee-meaning');
+    const foreseePast = document.getElementById('foresee-past');
+    const foreseeParticiple = document.getElementById('foresee-participle');
+    const foreseeMeaning = document.getElementById('foresee-meaning');
 
     let foreseeCorrect = checkInput(foreseePast, verbs.foresee.past) &&
                        checkInput(foreseeParticiple, verbs.foresee.participle) &&
@@ -921,9 +976,9 @@ function checkAnswers() {
     resultText += foreseeCorrect ? "foresee: Correct!<br>" : "foresee: Incorrect.<br>";
     
     // Verificar 'foretell'
-    const foretellPast = foretellcument.getElementById('foretell-past');
-    const foretellParticiple = foretellcument.getElementById('foretell-participle');
-    const foretellMeaning = foretellcument.getElementById('foretell-meaning');
+    const foretellPast = document.getElementById('foretell-past');
+    const foretellParticiple = document.getElementById('foretell-participle');
+    const foretellMeaning = document.getElementById('foretell-meaning');
 
     let foretellCorrect = checkInput(foretellPast, verbs.foretell.past) &&
                        checkInput(foretellParticiple, verbs.foretell.participle) &&
@@ -932,9 +987,9 @@ function checkAnswers() {
     resultText += foretellCorrect ? "foretell: Correct!<br>" : "foretell: Incorrect.<br>";
     
     // Verificar 'forget'
-    const forgetPast = forgetcument.getElementById('forget-past');
-    const forgetParticiple = forgetcument.getElementById('forget-participle');
-    const forgetMeaning = forgetcument.getElementById('forget-meaning');
+    const forgetPast = document.getElementById('forget-past');
+    const forgetParticiple = document.getElementById('forget-participle');
+    const forgetMeaning = document.getElementById('forget-meaning');
 
     let forgetCorrect = checkInput(forgetPast, verbs.forget.past) &&
                        checkInput(forgetParticiple, verbs.forget.participle) &&
@@ -943,9 +998,9 @@ function checkAnswers() {
     resultText += forgetCorrect ? "forget: Correct!<br>" : "forget: Incorrect.<br>";
     
     // Verificar 'forgive'
-    const forgivePast = forgivecument.getElementById('forgive-past');
-    const forgiveParticiple = forgivecument.getElementById('forgive-participle');
-    const forgiveMeaning = forgivecument.getElementById('forgive-meaning');
+    const forgivePast = document.getElementById('forgive-past');
+    const forgiveParticiple = document.getElementById('forgive-participle');
+    const forgiveMeaning = document.getElementById('forgive-meaning');
 
     let forgiveCorrect = checkInput(forgivePast, verbs.forgive.past) &&
                        checkInput(forgiveParticiple, verbs.forgive.participle) &&
@@ -954,9 +1009,9 @@ function checkAnswers() {
     resultText += forgiveCorrect ? "forgive: Correct!<br>" : "forgive: Incorrect.<br>";
     
     // Verificar 'forsake'
-    const forsakePast = forsakecument.getElementById('forsake-past');
-    const forsakeParticiple = forsakecument.getElementById('forsake-participle');
-    const forsakeMeaning = forsakecument.getElementById('forsake-meaning');
+    const forsakePast = document.getElementById('forsake-past');
+    const forsakeParticiple = document.getElementById('forsake-participle');
+    const forsakeMeaning = document.getElementById('forsake-meaning');
 
     let forsakeCorrect = checkInput(forsakePast, verbs.forsake.past) &&
                        checkInput(forsakeParticiple, verbs.forsake.participle) &&
@@ -965,9 +1020,9 @@ function checkAnswers() {
     resultText += forsakeCorrect ? "forsake: Correct!<br>" : "forsake: Incorrect.<br>";
     
     // Verificar 'freeze'
-    const freezePast = freezecument.getElementById('freeze-past');
-    const freezeParticiple = freezecument.getElementById('freeze-participle');
-    const freezeMeaning = freezecument.getElementById('freeze-meaning');
+    const freezePast = document.getElementById('freeze-past');
+    const freezeParticiple = document.getElementById('freeze-participle');
+    const freezeMeaning = document.getElementById('freeze-meaning');
 
     let freezeCorrect = checkInput(freezePast, verbs.freeze.past) &&
                        checkInput(freezeParticiple, verbs.freeze.participle) &&
@@ -976,15 +1031,148 @@ function checkAnswers() {
     resultText += freezeCorrect ? "freeze: Correct!<br>" : "freeze: Incorrect.<br>";
     
     // Verificar 'get'
-    const getPast = getcument.getElementById('get-past');
-    const getParticiple = getcument.getElementById('get-participle');
-    const getMeaning = getcument.getElementById('get-meaning');
+    const getPast = document.getElementById('get-past');
+    const getParticiple = document.getElementById('get-participle');
+    const getMeaning = document.getElementById('get-meaning');
 
     let getCorrect = checkInput(getPast, verbs.get.past) &&
                        checkInput(getParticiple, verbs.get.participle) &&
                        checkInput(getMeaning, verbs.get.meaning);
 
     resultText += getCorrect ? "get: Correct!<br>" : "get: Incorrect.<br>";
+    
+    // Verificar 'give'
+    const givePast = document.giveElementById('give-past');
+    const giveParticiple = document.giveElementById('give-participle');
+    const giveMeaning = document.giveElementById('give-meaning');
+
+    let giveCorrect = checkInput(givePast, verbs.give.past) &&
+                       checkInput(giveParticiple, verbs.give.participle) &&
+                       checkInput(giveMeaning, verbs.give.meaning);
+
+    resultText += giveCorrect ? "give: Correct!<br>" : "give: Incorrect.<br>";
+    
+    // Verificar 'go'
+    const goPast = document.goElementById('go-past');
+    const goParticiple = document.goElementById('go-participle');
+    const goMeaning = document.goElementById('go-meaning');
+
+    let goCorrect = checkInput(goPast, verbs.go.past) &&
+                       checkInput(goParticiple, verbs.go.participle) &&
+                       checkInput(goMeaning, verbs.go.meaning);
+
+    resultText += goCorrect ? "go: Correct!<br>" : "go: Incorrect.<br>";
+    
+    // Verificar 'grind'
+    const grindPast = document.grindElementById('grind-past');
+    const grindParticiple = document.grindElementById('grind-participle');
+    const grindMeaning = document.grindElementById('grind-meaning');
+
+    let grindCorrect = checkInput(grindPast, verbs.grind.past) &&
+                       checkInput(grindParticiple, verbs.grind.participle) &&
+                       checkInput(grindMeaning, verbs.grind.meaning);
+
+    resultText += grindCorrect ? "grind: Correct!<br>" : "grind: Incorrect.<br>";
+    
+    // Verificar 'grow'
+    const growPast = document.growElementById('grow-past');
+    const growParticiple = document.growElementById('grow-participle');
+    const growMeaning = document.growElementById('grow-meaning');
+
+    let growCorrect = checkInput(growPast, verbs.grow.past) &&
+                       checkInput(growParticiple, verbs.grow.participle) &&
+                       checkInput(growMeaning, verbs.grow.meaning);
+
+    resultText += growCorrect ? "grow: Correct!<br>" : "grow: Incorrect.<br>";
+    
+    // Verificar 'handwrite'
+    const handwritePast = document.handwriteElementById('handwrite-past');
+    const handwriteParticiple = document.handwriteElementById('handwrite-participle');
+    const handwriteMeaning = document.handwriteElementById('handwrite-meaning');
+
+    let handwriteCorrect = checkInput(handwritePast, verbs.handwrite.past) &&
+                       checkInput(handwriteParticiple, verbs.handwrite.participle) &&
+                       checkInput(handwriteMeaning, verbs.handwrite.meaning);
+
+    resultText += handwriteCorrect ? "handwrite: Correct!<br>" : "handwrite: Incorrect.<br>";
+
+    
+    // Verificar 'hang'
+    const hangPast = document.hangElementById('hang-past');
+    const hangParticiple = document.hangElementById('hang-participle');
+    const hangMeaning = document.hangElementById('hang-meaning');
+
+    let hangCorrect = checkInput(hangPast, verbs.hang.past) &&
+                       checkInput(hangParticiple, verbs.hang.participle) &&
+                       checkInput(hangMeaning, verbs.hang.meaning);
+
+    resultText += hangCorrect ? "hang: Correct!<br>" : "hang: Incorrect.<br>";
+    
+    // Verificar 'have'
+    const havePast = document.haveElementById('have-past');
+    const haveParticiple = document.haveElementById('have-participle');
+    const haveMeaning = document.haveElementById('have-meaning');
+
+    let haveCorrect = checkInput(havePast, verbs.have.past) &&
+                       checkInput(haveParticiple, verbs.have.participle) &&
+                       checkInput(haveMeaning, verbs.have.meaning);
+
+    resultText += haveCorrect ? "have: Correct!<br>" : "have: Incorrect.<br>";
+    
+    // Verificar 'hear'
+    const hearPast = document.hearElementById('hear-past');
+    const hearParticiple = document.hearElementById('hear-participle');
+    const hearMeaning = document.hearElementById('hear-meaning');
+
+    let hearCorrect = checkInput(hearPast, verbs.hear.past) &&
+                       checkInput(hearParticiple, verbs.hear.participle) &&
+                       checkInput(hearMeaning, verbs.hear.meaning);
+
+    resultText += hearCorrect ? "hear: Correct!<br>" : "hear: Incorrect.<br>";
+    
+    // Verificar 'hide'
+    const hidePast = document.hideElementById('hide-past');
+    const hideParticiple = document.hideElementById('hide-participle');
+    const hideMeaning = document.hideElementById('hide-meaning');
+
+    let hideCorrect = checkInput(hidePast, verbs.hide.past) &&
+                       checkInput(hideParticiple, verbs.hide.participle) &&
+                       checkInput(hideMeaning, verbs.hide.meaning);
+
+    resultText += hideCorrect ? "hide: Correct!<br>" : "hide: Incorrect.<br>";
+    
+    // Verificar 'hit'
+    const hitPast = document.hitElementById('hit-past');
+    const hitParticiple = document.hitElementById('hit-participle');
+    const hitMeaning = document.hitElementById('hit-meaning');
+
+    let hitCorrect = checkInput(hitPast, verbs.hit.past) &&
+                       checkInput(hitParticiple, verbs.hit.participle) &&
+                       checkInput(hitMeaning, verbs.hit.meaning);
+
+    resultText += hitCorrect ? "hit: Correct!<br>" : "hit: Incorrect.<br>";
+    
+    // Verificar 'hold'
+    const holdPast = document.holdElementById('hold-past');
+    const holdParticiple = document.holdElementById('hold-participle');
+    const holdMeaning = document.holdElementById('hold-meaning');
+
+    let holdCorrect = checkInput(holdPast, verbs.hold.past) &&
+                       checkInput(holdParticiple, verbs.hold.participle) &&
+                       checkInput(holdMeaning, verbs.hold.meaning);
+
+    resultText += holdCorrect ? "hold: Correct!<br>" : "hold: Incorrect.<br>";
+    
+    // Verificar 'hurt'
+    const hurtPast = document.hurtElementById('hurt-past');
+    const hurtParticiple = document.hurtElementById('hurt-participle');
+    const hurtMeaning = document.hurtElementById('hurt-meaning');
+
+    let hurtCorrect = checkInput(hurtPast, verbs.hurt.past) &&
+                       checkInput(hurtParticiple, verbs.hurt.participle) &&
+                       checkInput(hurtMeaning, verbs.hurt.meaning);
+
+    resultText += hurtCorrect ? "hurt: Correct!<br>" : "hurt: Incorrect.<br>";
 
 
 
