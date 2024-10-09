@@ -365,7 +365,127 @@ function checkAnswers() {
             participle: "hurt",
             meaning: "herir"
         },
-
+        inlay:{
+            past: "inlad",
+            participle: "inlad",
+            meaning: "incrustar"
+        },
+        input:{
+            past: "input",
+            participle: "input",
+            meaning: "introducir"
+        },
+        keep:{
+            past: "kept",
+            participle: "kept",
+            meaning: "mantener"
+        },
+        kneel:{
+            past: "knelt",
+            participle: "knelt",
+            meaning: "arrodillarse"
+        },
+        knit:{
+            past: "knit",
+            participle: "knit",
+            meaning: "tejer"
+        },
+        know:{
+            past: "knew",
+            participle: "known",
+            meaning: "saber"
+        },
+        lay:{
+            past: "laid",
+            participle: "laid",
+            meaning: "poner"
+        },
+        lead:{
+            past: "led",
+            participle: "led",
+            meaning: "guiar"
+        },
+        lean:{
+            past: "leant",
+            participle: "leant",
+            meaning: "inclinarse"
+        },
+        leap:{
+            past: "leapt",
+            participle: "leapt",
+            meaning: "saltar"
+        },
+        learn:{
+            past: "learnt",
+            participle: "learnt",
+            meaning: "aprender"
+        },
+        leave:{
+            past: "left",
+            participle: "left",
+            meaning: "irse"
+        },
+        lend:{
+            past: "lent",
+            participle: "lent",
+            meaning: "prestar"
+        },
+        let:{
+            past: "let",
+            participle: "let",
+            meaning: "permitir"
+        },
+        lie:{
+            past: "lay",
+            participle: "lain",
+            meaning: "echarse"
+        },
+        light:{
+            past: "lit",
+            participle: "lit",
+            meaning: "encender"
+        },
+        lose:{
+            past: "lost",
+            participle: "lost",
+            meaning: "perder"
+        },
+        
+        mean:{
+            past: "meant",
+            participle: "meant",
+            meaning: "significar"
+        },
+        meet:{
+            past: "met",
+            participle: "met",
+            meaning: "conocer"
+        },
+        melt:{
+            past: "melted",
+            participle: "molten",
+            meaning: "derretir"
+        },
+        mislead:{
+            past: "misled",
+            participle: "misled",
+            meaning: "engañar"
+        },
+        mistake:{
+            past: "mistook",
+            participle: "mistaken",
+            meaning: "confundir"
+        },
+        misunderstand:{
+            past: "misunderstood",
+            participle: "misunderstood",
+            meaning: "entender mal"
+        },
+        mow:{
+            past: "mowed",
+            participle: "mown",
+            meaning: "segar"
+        },
 
         
 
@@ -1178,7 +1298,29 @@ function checkAnswers() {
                        checkInput(hurtMeaning, verbs.hurt.meaning);
 
     resultText += hurtCorrect ? "hurt: Correct!<br>" : "hurt: Incorrect.<br>";
+    
+    // Verificar 'inlay'
+    const inlayPast = document.getElementById('inlay-past');
+    const inlayParticiple = document.getElementById('inlay-participle');
+    const inlayMeaning = document.getElementById('inlay-meaning');
 
+    let inlayCorrect = checkInput(inlayPast, verbs.inlay.past) &&
+                       checkInput(inlayParticiple, verbs.inlay.participle) &&
+                       checkInput(inlayMeaning, verbs.inlay.meaning);
+
+    resultText += inlayCorrect ? "inlay: Correct!<br>" : "inlay: Incorrect.<br>";
+    
+    // Verificar 'inlay'
+    const inputPast = document.getElementById('input-past');
+    const inputParticiple = document.getElementById('input-participle');
+    const inputMeaning = document.getElementById('input-meaning');
+
+    let inputCorrect = checkInput(inputPast, verbs.input.past) &&
+                       checkInput(inputParticiple, verbs.input.participle) &&
+                       checkInput(inputMeaning, verbs.input.meaning);
+
+    resultText += inputCorrect ? "input: Correct!<br>" : "input: Incorrect.<br>";
+    
 
 
 
