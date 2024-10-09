@@ -366,8 +366,8 @@ function checkAnswers() {
             meaning: "herir"
         },
         inlay:{
-            past: "inlad",
-            participle: "inlad",
+            past: "inlaid",
+            participle: "inlaid",
             meaning: "incrustar"
         },
         input:{
@@ -449,6 +449,11 @@ function checkAnswers() {
             past: "lost",
             participle: "lost",
             meaning: "perder"
+        },
+        make:{
+            past: "made",
+            participle: "lost",
+            meaning: "hacer"
         },
         
         mean:{
@@ -1330,7 +1335,7 @@ function checkAnswers() {
                        checkInput(keepParticiple, verbs.keep.participle) &&
                        checkInput(keepMeaning, verbs.keep.meaning);
 
-    resultText += inCorrect ? "keep: Correct!<br>" : "keep: Incorrect.<br>";
+    resultText += inputCorrect ? "keep: Correct!<br>" : "keep: Incorrect.<br>";
     
     // Verificar 'kneel'
     const kneelPast = document.getElementById('kneel-past');
@@ -1341,7 +1346,7 @@ function checkAnswers() {
                        checkInput(kneelParticiple, verbs.kneel.participle) &&
                        checkInput(kneelMeaning, verbs.kneel.meaning);
 
-    resultText += inCorrect ? "kneel: Correct!<br>" : "kneel: Incorrect.<br>";
+    resultText += inputCorrect  ? "kneel: Correct!<br>" : "kneel: Incorrect.<br>";
     
     // Verificar 'knit'
     const knitPast = document.getElementById('knit-past');
@@ -1352,7 +1357,7 @@ function checkAnswers() {
                        checkInput(knitParticiple, verbs.knit.participle) &&
                        checkInput(knitMeaning, verbs.knit.meaning);
 
-    resultText += inCorrect ? "knit: Correct!<br>" : "knit: Incorrect.<br>";
+    resultText += inputCorrect  ? "knit: Correct!<br>" : "knit: Incorrect.<br>";
     
     // Verificar 'know'
     const knowPast = document.getElementById('know-past');
@@ -1363,7 +1368,7 @@ function checkAnswers() {
                        checkInput(knowParticiple, verbs.know.participle) &&
                        checkInput(knowMeaning, verbs.know.meaning);
 
-    resultText += inCorrect ? "know: Correct!<br>" : "know: Incorrect.<br>";
+    resultText += inputCorrect  ? "know: Correct!<br>" : "know: Incorrect.<br>";
     
     // Verificar 'lay'
     const layPast = document.getElementById('lay-past');
@@ -1374,7 +1379,7 @@ function checkAnswers() {
                        checkInput(layParticiple, verbs.lay.participle) &&
                        checkInput(layMeaning, verbs.lay.meaning);
 
-    resultText += inCorrect ? "lay: Correct!<br>" : "lay: Incorrect.<br>";
+    resultText += inputCorrect  ? "lay: Correct!<br>" : "lay: Incorrect.<br>";
     
     // Verificar 'lead'
     const leadPast = document.getElementById('lead-past');
@@ -1385,7 +1390,7 @@ function checkAnswers() {
                        checkInput(leadParticiple, verbs.lead.participle) &&
                        checkInput(leadMeaning, verbs.lead.meaning);
 
-    resultText += inCorrect ? "lead: Correct!<br>" : "lead: Incorrect.<br>";
+    resultText += inputCorrect  ? "lead: Correct!<br>" : "lead: Incorrect.<br>";
     
     
     // Verificar 'lean'
@@ -1397,7 +1402,7 @@ function checkAnswers() {
                        checkInput(leanParticiple, verbs.lean.participle) &&
                        checkInput(leanMeaning, verbs.lean.meaning);
 
-    resultText += inCorrect ? "lean: Correct!<br>" : "lean: Incorrect.<br>";
+    resultText += inputCorrect  ? "lean: Correct!<br>" : "lean: Incorrect.<br>";
     
     // Verificar 'leap'
     const leapPast = document.getElementById('leap-past');
@@ -1408,7 +1413,7 @@ function checkAnswers() {
                        checkInput(leapParticiple, verbs.leap.participle) &&
                        checkInput(leapMeaning, verbs.leap.meaning);
 
-    resultText += inCorrect ? "leap: Correct!<br>" : "leap: Incorrect.<br>";
+    resultText += inputCorrect  ? "leap: Correct!<br>" : "leap: Incorrect.<br>";
     
     // Verificar 'learn'
     const learnPast = document.getElementById('learn-past');
@@ -1419,7 +1424,7 @@ function checkAnswers() {
                        checkInput(learnParticiple, verbs.learn.participle) &&
                        checkInput(learnMeaning, verbs.learn.meaning);
 
-    resultText += inCorrect ? "learn: Correct!<br>" : "learn: Incorrect.<br>";
+    resultText += inputCorrect  ? "learn: Correct!<br>" : "learn: Incorrect.<br>";
     
     // Verificar 'leave'
     const leavePast = document.getElementById('leave-past');
@@ -1430,7 +1435,7 @@ function checkAnswers() {
                        checkInput(leaveParticiple, verbs.leave.participle) &&
                        checkInput(leaveMeaning, verbs.leave.meaning);
 
-    resultText += inCorrect ? "leave: Correct!<br>" : "leave: Incorrect.<br>";
+    resultText += inputCorrect  ? "leave: Correct!<br>" : "leave: Incorrect.<br>";
     
     // Verificar 'lend'
     const lendPast = document.getElementById('lend-past');
@@ -1441,7 +1446,7 @@ function checkAnswers() {
                        checkInput(lendParticiple, verbs.lend.participle) &&
                        checkInput(lendMeaning, verbs.lend.meaning);
 
-    resultText += inCorrect ? "lend: Correct!<br>" : "lend: Incorrect.<br>";
+    resultText += inputCorrect  ? "lend: Correct!<br>" : "lend: Incorrect.<br>";
     
     
     // Verificar 'let'
@@ -1453,7 +1458,7 @@ function checkAnswers() {
                        checkInput(letParticiple, verbs.let.participle) &&
                        checkInput(letMeaning, verbs.let.meaning);
 
-    resultText += inCorrect ? "let: Correct!<br>" : "let: Incorrect.<br>";
+    resultText += inputCorrect  ? "let: Correct!<br>" : "let: Incorrect.<br>";
     
     // Verificar 'lie'
     const liePast = document.getElementById('lie-past');
@@ -1464,7 +1469,7 @@ function checkAnswers() {
                        checkInput(lieParticiple, verbs.lie.participle) &&
                        checkInput(lieMeaning, verbs.lie.meaning);
 
-    resultText += inCorrect ? "lie: Correct!<br>" : "lie: Incorrect.<br>";
+    resultText += inputCorrect  ? "lie: Correct!<br>" : "lie: Incorrect.<br>";
     
     // Verificar 'light'
     const lightPast = document.getElementById('light-past');
@@ -1475,7 +1480,7 @@ function checkAnswers() {
                        checkInput(lightParticiple, verbs.light.participle) &&
                        checkInput(lightMeaning, verbs.light.meaning);
 
-    resultText += inCorrect ? "light: Correct!<br>" : "light: Incorrect.<br>";
+    resultText += inputCorrect  ? "light: Correct!<br>" : "light: Incorrect.<br>";
     
     // Verificar 'lose'
     const losePast = document.getElementById('lose-past');
@@ -1486,7 +1491,7 @@ function checkAnswers() {
                        checkInput(loseParticiple, verbs.lose.participle) &&
                        checkInput(loseMeaning, verbs.lose.meaning);
 
-    resultText += inCorrect ? "lose: Correct!<br>" : "lose: Incorrect.<br>";
+    resultText += inputCorrect  ? "lose: Correct!<br>" : "lose: Incorrect.<br>";
     
     // Verificar 'make'
     const makePast = document.getElementById('make-past');
@@ -1497,7 +1502,7 @@ function checkAnswers() {
                        checkInput(makeParticiple, verbs.make.participle) &&
                        checkInput(makeMeaning, verbs.make.meaning);
 
-    resultText += inCorrect ? "make: Correct!<br>" : "make: Incorrect.<br>";
+    resultText += inputCorrect  ? "make: Correct!<br>" : "make: Incorrect.<br>";
     
     // Verificar 'mean'
     const meanPast = document.getElementById('mean-past');
@@ -1508,7 +1513,7 @@ function checkAnswers() {
                        checkInput(meanParticiple, verbs.mean.participle) &&
                        checkInput(meanMeaning, verbs.mean.meaning);
 
-    resultText += inCorrect ? "mean: Correct!<br>" : "mean: Incorrect.<br>";
+    resultText += inputCorrect  ? "mean: Correct!<br>" : "mean: Incorrect.<br>";
     
     // Verificar 'meet'
     const meetPast = document.getElementById('meet-past');
@@ -1519,7 +1524,7 @@ function checkAnswers() {
                        checkInput(meetParticiple, verbs.meet.participle) &&
                        checkInput(meetMeaning, verbs.meet.meaning);
 
-    resultText += inCorrect ? "meet: Correct!<br>" : "meet: Incorrect.<br>";
+    resultText += inputCorrect  ? "meet: Correct!<br>" : "meet: Incorrect.<br>";
     
     // Verificar 'melt'
     const meltPast = document.getElementById('melt-past');
@@ -1530,7 +1535,7 @@ function checkAnswers() {
                        checkInput(meltParticiple, verbs.melt.participle) &&
                        checkInput(meltMeaning, verbs.melt.meaning);
 
-    resultText += inCorrect ? "melt: Correct!<br>" : "melt: Incorrect.<br>";
+    resultText += inputCorrect  ? "melt: Correct!<br>" : "melt: Incorrect.<br>";
     
     // Verificar 'mislead'
     const misleadPast = document.getElementById('mislead-past');
@@ -1541,7 +1546,7 @@ function checkAnswers() {
                        checkInput(misleadParticiple, verbs.mislead.participle) &&
                        checkInput(misleadMeaning, verbs.mislead.meaning);
 
-    resultText += inCorrect ? "mislead: Correct!<br>" : "mislead: Incorrect.<br>";
+    resultText += inputCorrect  ? "mislead: Correct!<br>" : "mislead: Incorrect.<br>";
     
     
     // Verificar 'mistake'
@@ -1553,7 +1558,7 @@ function checkAnswers() {
                        checkInput(mistakeParticiple, verbs.mistake.participle) &&
                        checkInput(mistakeMeaning, verbs.mistake.meaning);
 
-    resultText += inCorrect ? "mistake: Correct!<br>" : "mistake: Incorrect.<br>";
+    resultText += inputCorrect  ? "mistake: Correct!<br>" : "mistake: Incorrect.<br>";
     
     // Verificar 'misunderstand'
     const misunderstandPast = document.getElementById('misunderstand-past');
@@ -1564,7 +1569,7 @@ function checkAnswers() {
                        checkInput(misunderstandParticiple, verbs.misunderstand.participle) &&
                        checkInput(misunderstandMeaning, verbs.misunderstand.meaning);
 
-    resultText += inCorrect ? "misunderstand: Correct!<br>" : "misunderstand: Incorrect.<br>";
+    resultText += inputCorrect  ? "misunderstand: Correct!<br>" : "misunderstand: Incorrect.<br>";
     
     // Verificar 'mow'
     const mowPast = document.getElementById('mow-past');
@@ -1575,7 +1580,7 @@ function checkAnswers() {
                        checkInput(mowParticiple, verbs.mow.participle) &&
                        checkInput(mowMeaning, verbs.mow.meaning);
 
-    resultText += inCorrect ? "mow: Correct!<br>" : "mow: Incorrect.<br>";
+    resultText += inputCorrect  ? "mow: Correct!<br>" : "mow: Incorrect.<br>";
     
 
 
