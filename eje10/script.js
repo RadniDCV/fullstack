@@ -1310,7 +1310,7 @@ function checkAnswers() {
 
     resultText += inlayCorrect ? "inlay: Correct!<br>" : "inlay: Incorrect.<br>";
     
-    // Verificar 'inlay'
+    // Verificar 'input'
     const inputPast = document.getElementById('input-past');
     const inputParticiple = document.getElementById('input-participle');
     const inputMeaning = document.getElementById('input-meaning');
@@ -1320,6 +1320,262 @@ function checkAnswers() {
                        checkInput(inputMeaning, verbs.input.meaning);
 
     resultText += inputCorrect ? "input: Correct!<br>" : "input: Incorrect.<br>";
+    
+    // Verificar 'keep'
+    const keepPast = document.getElementById('keep-past');
+    const keepParticiple = document.getElementById('keep-participle');
+    const keepMeaning = document.getElementById('keep-meaning');
+
+    let keepCorrect = checkInput(keepPast, verbs.keep.past) &&
+                       checkInput(keepParticiple, verbs.keep.participle) &&
+                       checkInput(keepMeaning, verbs.keep.meaning);
+
+    resultText += inCorrect ? "keep: Correct!<br>" : "keep: Incorrect.<br>";
+    
+    // Verificar 'kneel'
+    const kneelPast = document.getElementById('kneel-past');
+    const kneelParticiple = document.getElementById('kneel-participle');
+    const kneelMeaning = document.getElementById('kneel-meaning');
+
+    let kneelCorrect = checkInput(kneelPast, verbs.kneel.past) &&
+                       checkInput(kneelParticiple, verbs.kneel.participle) &&
+                       checkInput(kneelMeaning, verbs.kneel.meaning);
+
+    resultText += inCorrect ? "kneel: Correct!<br>" : "kneel: Incorrect.<br>";
+    
+    // Verificar 'knit'
+    const knitPast = document.getElementById('knit-past');
+    const knitParticiple = document.getElementById('knit-participle');
+    const knitMeaning = document.getElementById('knit-meaning');
+
+    let knitCorrect = checkInput(knitPast, verbs.knit.past) &&
+                       checkInput(knitParticiple, verbs.knit.participle) &&
+                       checkInput(knitMeaning, verbs.knit.meaning);
+
+    resultText += inCorrect ? "knit: Correct!<br>" : "knit: Incorrect.<br>";
+    
+    // Verificar 'know'
+    const knowPast = document.getElementById('know-past');
+    const knowParticiple = document.getElementById('know-participle');
+    const knowMeaning = document.getElementById('know-meaning');
+
+    let knowCorrect = checkInput(knowPast, verbs.know.past) &&
+                       checkInput(knowParticiple, verbs.know.participle) &&
+                       checkInput(knowMeaning, verbs.know.meaning);
+
+    resultText += inCorrect ? "know: Correct!<br>" : "know: Incorrect.<br>";
+    
+    // Verificar 'lay'
+    const layPast = document.getElementById('lay-past');
+    const layParticiple = document.getElementById('lay-participle');
+    const layMeaning = document.getElementById('lay-meaning');
+
+    let layCorrect = checkInput(layPast, verbs.lay.past) &&
+                       checkInput(layParticiple, verbs.lay.participle) &&
+                       checkInput(layMeaning, verbs.lay.meaning);
+
+    resultText += inCorrect ? "lay: Correct!<br>" : "lay: Incorrect.<br>";
+    
+    // Verificar 'lead'
+    const leadPast = document.getElementById('lead-past');
+    const leadParticiple = document.getElementById('lead-participle');
+    const leadMeaning = document.getElementById('lead-meaning');
+
+    let leadCorrect = checkInput(leadPast, verbs.lead.past) &&
+                       checkInput(leadParticiple, verbs.lead.participle) &&
+                       checkInput(leadMeaning, verbs.lead.meaning);
+
+    resultText += inCorrect ? "lead: Correct!<br>" : "lead: Incorrect.<br>";
+    
+    
+    // Verificar 'lean'
+    const leanPast = document.getElementById('lean-past');
+    const leanParticiple = document.getElementById('lean-participle');
+    const leanMeaning = document.getElementById('lean-meaning');
+
+    let leanCorrect = checkInput(leanPast, verbs.lean.past) &&
+                       checkInput(leanParticiple, verbs.lean.participle) &&
+                       checkInput(leanMeaning, verbs.lean.meaning);
+
+    resultText += inCorrect ? "lean: Correct!<br>" : "lean: Incorrect.<br>";
+    
+    // Verificar 'leap'
+    const leapPast = document.getElementById('leap-past');
+    const leapParticiple = document.getElementById('leap-participle');
+    const leapMeaning = document.getElementById('leap-meaning');
+
+    let leapCorrect = checkInput(leapPast, verbs.leap.past) &&
+                       checkInput(leapParticiple, verbs.leap.participle) &&
+                       checkInput(leapMeaning, verbs.leap.meaning);
+
+    resultText += inCorrect ? "leap: Correct!<br>" : "leap: Incorrect.<br>";
+    
+    // Verificar 'learn'
+    const learnPast = document.getElementById('learn-past');
+    const learnParticiple = document.getElementById('learn-participle');
+    const learnMeaning = document.getElementById('learn-meaning');
+
+    let learnCorrect = checkInput(learnPast, verbs.learn.past) &&
+                       checkInput(learnParticiple, verbs.learn.participle) &&
+                       checkInput(learnMeaning, verbs.learn.meaning);
+
+    resultText += inCorrect ? "learn: Correct!<br>" : "learn: Incorrect.<br>";
+    
+    // Verificar 'leave'
+    const leavePast = document.getElementById('leave-past');
+    const leaveParticiple = document.getElementById('leave-participle');
+    const leaveMeaning = document.getElementById('leave-meaning');
+
+    let leaveCorrect = checkInput(leavePast, verbs.leave.past) &&
+                       checkInput(leaveParticiple, verbs.leave.participle) &&
+                       checkInput(leaveMeaning, verbs.leave.meaning);
+
+    resultText += inCorrect ? "leave: Correct!<br>" : "leave: Incorrect.<br>";
+    
+    // Verificar 'lend'
+    const lendPast = document.getElementById('lend-past');
+    const lendParticiple = document.getElementById('lend-participle');
+    const lendMeaning = document.getElementById('lend-meaning');
+
+    let lendCorrect = checkInput(lendPast, verbs.lend.past) &&
+                       checkInput(lendParticiple, verbs.lend.participle) &&
+                       checkInput(lendMeaning, verbs.lend.meaning);
+
+    resultText += inCorrect ? "lend: Correct!<br>" : "lend: Incorrect.<br>";
+    
+    
+    // Verificar 'let'
+    const letPast = document.getElementById('let-past');
+    const letParticiple = document.getElementById('let-participle');
+    const letMeaning = document.getElementById('let-meaning');
+
+    let letCorrect = checkInput(letPast, verbs.let.past) &&
+                       checkInput(letParticiple, verbs.let.participle) &&
+                       checkInput(letMeaning, verbs.let.meaning);
+
+    resultText += inCorrect ? "let: Correct!<br>" : "let: Incorrect.<br>";
+    
+    // Verificar 'lie'
+    const liePast = document.getElementById('lie-past');
+    const lieParticiple = document.getElementById('lie-participle');
+    const lieMeaning = document.getElementById('lie-meaning');
+
+    let lieCorrect = checkInput(liePast, verbs.lie.past) &&
+                       checkInput(lieParticiple, verbs.lie.participle) &&
+                       checkInput(lieMeaning, verbs.lie.meaning);
+
+    resultText += inCorrect ? "lie: Correct!<br>" : "lie: Incorrect.<br>";
+    
+    // Verificar 'light'
+    const lightPast = document.getElementById('light-past');
+    const lightParticiple = document.getElementById('light-participle');
+    const lightMeaning = document.getElementById('light-meaning');
+
+    let lightCorrect = checkInput(lightPast, verbs.light.past) &&
+                       checkInput(lightParticiple, verbs.light.participle) &&
+                       checkInput(lightMeaning, verbs.light.meaning);
+
+    resultText += inCorrect ? "light: Correct!<br>" : "light: Incorrect.<br>";
+    
+    // Verificar 'lose'
+    const losePast = document.getElementById('lose-past');
+    const loseParticiple = document.getElementById('lose-participle');
+    const loseMeaning = document.getElementById('lose-meaning');
+
+    let loseCorrect = checkInput(losePast, verbs.lose.past) &&
+                       checkInput(loseParticiple, verbs.lose.participle) &&
+                       checkInput(loseMeaning, verbs.lose.meaning);
+
+    resultText += inCorrect ? "lose: Correct!<br>" : "lose: Incorrect.<br>";
+    
+    // Verificar 'make'
+    const makePast = document.getElementById('make-past');
+    const makeParticiple = document.getElementById('make-participle');
+    const makeMeaning = document.getElementById('make-meaning');
+
+    let makeCorrect = checkInput(makePast, verbs.make.past) &&
+                       checkInput(makeParticiple, verbs.make.participle) &&
+                       checkInput(makeMeaning, verbs.make.meaning);
+
+    resultText += inCorrect ? "make: Correct!<br>" : "make: Incorrect.<br>";
+    
+    // Verificar 'mean'
+    const meanPast = document.getElementById('mean-past');
+    const meanParticiple = document.getElementById('mean-participle');
+    const meanMeaning = document.getElementById('mean-meaning');
+
+    let meanCorrect = checkInput(meanPast, verbs.mean.past) &&
+                       checkInput(meanParticiple, verbs.mean.participle) &&
+                       checkInput(meanMeaning, verbs.mean.meaning);
+
+    resultText += inCorrect ? "mean: Correct!<br>" : "mean: Incorrect.<br>";
+    
+    // Verificar 'meet'
+    const meetPast = document.getElementById('meet-past');
+    const meetParticiple = document.getElementById('meet-participle');
+    const meetMeaning = document.getElementById('meet-meaning');
+
+    let meetCorrect = checkInput(meetPast, verbs.meet.past) &&
+                       checkInput(meetParticiple, verbs.meet.participle) &&
+                       checkInput(meetMeaning, verbs.meet.meaning);
+
+    resultText += inCorrect ? "meet: Correct!<br>" : "meet: Incorrect.<br>";
+    
+    // Verificar 'melt'
+    const meltPast = document.getElementById('melt-past');
+    const meltParticiple = document.getElementById('melt-participle');
+    const meltMeaning = document.getElementById('melt-meaning');
+
+    let meltCorrect = checkInput(meltPast, verbs.melt.past) &&
+                       checkInput(meltParticiple, verbs.melt.participle) &&
+                       checkInput(meltMeaning, verbs.melt.meaning);
+
+    resultText += inCorrect ? "melt: Correct!<br>" : "melt: Incorrect.<br>";
+    
+    // Verificar 'mislead'
+    const misleadPast = document.getElementById('mislead-past');
+    const misleadParticiple = document.getElementById('mislead-participle');
+    const misleadMeaning = document.getElementById('mislead-meaning');
+
+    let misleadCorrect = checkInput(misleadPast, verbs.mislead.past) &&
+                       checkInput(misleadParticiple, verbs.mislead.participle) &&
+                       checkInput(misleadMeaning, verbs.mislead.meaning);
+
+    resultText += inCorrect ? "mislead: Correct!<br>" : "mislead: Incorrect.<br>";
+    
+    
+    // Verificar 'mistake'
+    const mistakePast = document.getElementById('mistake-past');
+    const mistakeParticiple = document.getElementById('mistake-participle');
+    const mistakeMeaning = document.getElementById('mistake-meaning');
+
+    let mistakeCorrect = checkInput(mistakePast, verbs.mistake.past) &&
+                       checkInput(mistakeParticiple, verbs.mistake.participle) &&
+                       checkInput(mistakeMeaning, verbs.mistake.meaning);
+
+    resultText += inCorrect ? "mistake: Correct!<br>" : "mistake: Incorrect.<br>";
+    
+    // Verificar 'misunderstand'
+    const misunderstandPast = document.getElementById('misunderstand-past');
+    const misunderstandParticiple = document.getElementById('misunderstand-participle');
+    const misunderstandMeaning = document.getElementById('misunderstand-meaning');
+
+    let misunderstandCorrect = checkInput(misunderstandPast, verbs.misunderstand.past) &&
+                       checkInput(misunderstandParticiple, verbs.misunderstand.participle) &&
+                       checkInput(misunderstandMeaning, verbs.misunderstand.meaning);
+
+    resultText += inCorrect ? "misunderstand: Correct!<br>" : "misunderstand: Incorrect.<br>";
+    
+    // Verificar 'mow'
+    const mowPast = document.getElementById('mow-past');
+    const mowParticiple = document.getElementById('mow-participle');
+    const mowMeaning = document.getElementById('mow-meaning');
+
+    let mowCorrect = checkInput(mowPast, verbs.mow.past) &&
+                       checkInput(mowParticiple, verbs.mow.participle) &&
+                       checkInput(mowMeaning, verbs.mow.meaning);
+
+    resultText += inCorrect ? "mow: Correct!<br>" : "mow: Incorrect.<br>";
     
 
 
