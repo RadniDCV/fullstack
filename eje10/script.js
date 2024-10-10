@@ -491,6 +491,66 @@ function checkAnswers() {
             participle: "mown",
             meaning: "segar"
         },
+        overhear:{
+            past: "overheard",
+            participle: "overheard",
+            meaning: "oir sin intencion"
+        },
+        overtake:{
+            past: "overtook",
+            participle: "overtaken",
+            meaning: "sobrepasar"
+        },
+        pay:{
+            past: "paid",
+            participle: "paid",
+            meaning: "pagar"
+        },
+        prove:{
+            past: "proved",
+            participle: "proven",
+            meaning: "probar"
+        },
+        put:{
+            past: "put",
+            participle: "put",
+            meaning: "poner"
+        },
+        quit:{
+            past: "quit",
+            participle: "quit",
+            meaning: "abandonar"
+        },
+        read:{
+            past: "read",
+            participle: "read",
+            meaning: "leer"
+        },
+        rid:{
+            past: "rid",
+            participle: "rid",
+            meaning: "librar"
+        },
+        ride:{
+            past: "rode",
+            participle: "ridden",
+            meaning: "montar"
+        },
+        ring:{
+            past: "rang",
+            participle: "rung",
+            meaning: "llamar por telefono"
+        },
+        rise:{
+            past: "rose",
+            participle: "risen",
+            meaning: "levantarse"
+        },
+        run:{
+            past: "ran",
+            participle: "run",
+            meaning: "correr"
+        },
 
         
 
@@ -1581,6 +1641,138 @@ function checkAnswers() {
                        checkInput(mowMeaning, verbs.mow.meaning);
 
     resultText += inputCorrect  ? "mow: Correct!<br>" : "mow: Incorrect.<br>";
+    
+    // Verificar 'overhear'
+    const overhearPast = document.getElementById('overhear-past');
+    const overhearParticiple = document.getElementById('overhear-participle');
+    const overhearMeaning = document.getElementById('overhear-meaning');
+
+    let overhearCorrect = checkInput(overhearPast, verbs.overhear.past) &&
+                       checkInput(overhearParticiple, verbs.overhear.participle) &&
+                       checkInput(overhearMeaning, verbs.overhear.meaning);
+
+    resultText += inputCorrect  ? "overhear: Correct!<br>" : "overhear: Incorrect.<br>";
+    
+    // Verificar 'overtake'
+    const overtakePast = document.getElementById('overtake-past');
+    const overtakeParticiple = document.getElementById('overtake-participle');
+    const overtakeMeaning = document.getElementById('overtake-meaning');
+
+    let overtakeCorrect = checkInput(overtakePast, verbs.overtake.past) &&
+                       checkInput(overtakeParticiple, verbs.overtake.participle) &&
+                       checkInput(overtakeMeaning, verbs.overtake.meaning);
+
+    resultText += inputCorrect  ? "overtake: Correct!<br>" : "overtake: Incorrect.<br>";
+    
+    // Verificar 'pay'
+    const payPast = document.getElementById('pay-past');
+    const payParticiple = document.getElementById('pay-participle');
+    const payMeaning = document.getElementById('pay-meaning');
+
+    let payCorrect = checkInput(payPast, verbs.pay.past) &&
+                       checkInput(payParticiple, verbs.pay.participle) &&
+                       checkInput(payMeaning, verbs.pay.meaning);
+
+    resultText += inputCorrect  ? "pay: Correct!<br>" : "pay: Incorrect.<br>";
+    
+    // Verificar 'prove'
+    const provePast = document.getElementById('prove-past');
+    const proveParticiple = document.getElementById('prove-participle');
+    const proveMeaning = document.getElementById('prove-meaning');
+
+    let proveCorrect = checkInput(provePast, verbs.prove.past) &&
+                       checkInput(proveParticiple, verbs.prove.participle) &&
+                       checkInput(proveMeaning, verbs.prove.meaning);
+
+    resultText += inputCorrect  ? "prove: Correct!<br>" : "prove: Incorrect.<br>";
+    
+    // Verificar 'put'
+    const putPast = document.getElementById('put-past');
+    const putParticiple = document.getElementById('put-participle');
+    const putMeaning = document.getElementById('put-meaning');
+
+    let putCorrect = checkInput(putPast, verbs.put.past) &&
+                       checkInput(putParticiple, verbs.put.participle) &&
+                       checkInput(putMeaning, verbs.put.meaning);
+
+    resultText += inputCorrect  ? "put: Correct!<br>" : "put: Incorrect.<br>";
+    
+    // Verificar 'quit'
+    const quitPast = document.getElementById('quit-past');
+    const quitParticiple = document.getElementById('quit-participle');
+    const quitMeaning = document.getElementById('quit-meaning');
+
+    let quitCorrect = checkInput(quitPast, verbs.quit.past) &&
+                       checkInput(quitParticiple, verbs.quit.participle) &&
+                       checkInput(quitMeaning, verbs.quit.meaning);
+
+    resultText += inputCorrect  ? "quit: Correct!<br>" : "quit: Incorrect.<br>";
+
+    // Verificar 'read'
+    const readPast = document.getElementById('read-past');
+    const readParticiple = document.getElementById('read-participle');
+    const readMeaning = document.getElementById('read-meaning');
+
+    let readCorrect = checkInput(readPast, verbs.read.past) &&
+                       checkInput(readParticiple, verbs.read.participle) &&
+                       checkInput(readMeaning, verbs.read.meaning);
+
+    resultText += inputCorrect  ? "read: Correct!<br>" : "read: Incorrect.<br>";
+
+    // Verificar 'rid'
+    const ridPast = document.getElementById('rid-past');
+    const ridParticiple = document.getElementById('rid-participle');
+    const ridMeaning = document.getElementById('rid-meaning');
+
+    let ridCorrect = checkInput(ridPast, verbs.rid.past) &&
+                       checkInput(ridParticiple, verbs.rid.participle) &&
+                       checkInput(ridMeaning, verbs.rid.meaning);
+
+    resultText += inputCorrect  ? "rid: Correct!<br>" : "rid: Incorrect.<br>";
+
+    // Verificar 'ride'
+    const ridePast = document.getElementById('ride-past');
+    const rideParticiple = document.getElementById('ride-participle');
+    const rideMeaning = document.getElementById('ride-meaning');
+
+    let rideCorrect = checkInput(ridePast, verbs.ride.past) &&
+                       checkInput(rideParticiple, verbs.ride.participle) &&
+                       checkInput(rideMeaning, verbs.ride.meaning);
+
+    resultText += inputCorrect  ? "ride: Correct!<br>" : "ride: Incorrect.<br>";
+
+    // Verificar 'ring'
+    const ringPast = document.getElementById('ring-past');
+    const ringParticiple = document.getElementById('ring-participle');
+    const ringMeaning = document.getElementById('ring-meaning');
+
+    let ringCorrect = checkInput(ringPast, verbs.ring.past) &&
+                       checkInput(ringParticiple, verbs.ring.participle) &&
+                       checkInput(ringMeaning, verbs.ring.meaning);
+
+    resultText += inputCorrect  ? "ring: Correct!<br>" : "ring: Incorrect.<br>";
+
+    // Verificar 'rise'
+    const risePast = document.getElementById('rise-past');
+    const riseParticiple = document.getElementById('rise-participle');
+    const riseMeaning = document.getElementById('rise-meaning');
+
+    let riseCorrect = checkInput(risePast, verbs.rise.past) &&
+                       checkInput(riseParticiple, verbs.rise.participle) &&
+                       checkInput(riseMeaning, verbs.rise.meaning);
+
+    resultText += inputCorrect  ? "rise: Correct!<br>" : "rise: Incorrect.<br>";
+
+    // Verificar 'run'
+    const runPast = document.getElementById('run-past');
+    const runParticiple = document.getElementById('run-participle');
+    const runMeaning = document.getElementById('run-meaning');
+
+    let runCorrect = checkInput(runPast, verbs.run.past) &&
+                       checkInput(runParticiple, verbs.run.participle) &&
+                       checkInput(runMeaning, verbs.run.meaning);
+
+    resultText += inputCorrect  ? "run: Correct!<br>" : "run: Incorrect.<br>";
     
 
 
