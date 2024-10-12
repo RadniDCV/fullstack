@@ -701,6 +701,131 @@ function checkAnswers() {
             participle: "spoken",
             meaning: "hablar"
         },
+        speed:{
+            past: "sped",
+            participle: "sped",
+            meaning: "acelerar"
+        },
+        spell:{
+            past: "spelt",
+            participle: "spelt",
+            meaning: "deletrear"
+        },
+        spend:{
+            past: "spent",
+            participle: "spent",
+            meaning: "gastar"
+        },
+        spill:{
+            past: "spilt",
+            participle: "spilt",
+            meaning: "derramar"
+        },
+        spin:{
+            past: "spun",
+            participle: "spun",
+            meaning: "dar vueltas"
+        },
+        spit:{
+            past: "spat",
+            participle: "spat",
+            meaning: "escupir"
+        },
+        split:{
+            past: "split",
+            participle: "split",
+            meaning: "dividir"
+        },
+        spoil:{
+            past: "spoilt",
+            participle: "spoilt",
+            meaning: "arruinar"
+        },
+        spread:{
+            past: "spread",
+            participle: "spread",
+            meaning: "extender"
+        },
+        spring:{
+            past: "sprang",
+            participle: "sprung",
+            meaning: "saltar"
+        },
+        stand:{
+            past: "stood",
+            participle: "stood",
+            meaning: "pararse"
+        },
+        steal:{
+            past: "stole",
+            participle: "stolen",
+            meaning: "robar"
+        },
+        stick:{
+            past: "stuck",
+            participle: "stuck",
+            meaning: "pegar"
+        },
+        sting:{
+            past: "stung",
+            participle: "stung",
+            meaning: "picar"
+        },
+        stink:{
+            past: "stank",
+            participle: "stunk",
+            meaning: "apestar"
+        },
+        stride:{
+            past: "strode",
+            participle: "stridden",
+            meaning: "dar zancadas"
+        },
+        strike:{
+            past: "struck",
+            participle: "striken",
+            meaning: "golpear"
+        },
+        string:{
+            past: "strung",
+            participle: "strung",
+            meaning: "atar"
+        },
+        strive:{
+            past: "strove",
+            participle: "striven",
+            meaning: "esforzarse"
+        },
+        swear:{
+            past: "swore",
+            participle: "sworn",
+            meaning: "jurar"
+        },
+        sweat:{
+            past: "sweat",
+            participle: "sweat",
+            meaning: "sudar"
+        },
+        sweep:{
+            past: "swept",
+            participle: "swept",
+            meaning: "barrer"
+        },
+        swell:{
+            past: "swelled",
+            participle: "swollen",
+            meaning: "hinchase"
+        },
+        swim:{
+            past: "swam",
+            participle: "swum",
+            meaning: "nadar"
+        },
+        swing:{
+            past: "swung",
+            participle: "swung",
+            meaning: "balacear"
+        },
 
         
 
@@ -2220,8 +2345,316 @@ function checkAnswers() {
                        checkInput(smellMeaning, verbs.smell.meaning);
 
     resultText += smellCorrect  ? "smell: Correct!<br>" : "smell: Incorrect.<br>";
+
+    // Verificar 'sneak'
+    const sneakPast = document.getElementById('sneak-past');
+    const sneakParticiple = document.getElementById('sneak-participle');
+    const sneakMeaning = document.getElementById('sneak-meaning');
+
+    let sneakCorrect = checkInput(sneakPast, verbs.sneak.past) &&
+                       checkInput(sneakParticiple, verbs.sneak.participle) &&
+                       checkInput(sneakMeaning, verbs.sneak.meaning);
+
+    resultText += sneakCorrect  ? "sneak: Correct!<br>" : "sneak: Incorrect.<br>";
+
+    // Verificar 'sow'
+    const sowPast = document.getElementById('sow-past');
+    const sowParticiple = document.getElementById('sow-participle');
+    const sowMeaning = document.getElementById('sow-meaning');
+
+    let sowCorrect = checkInput(sowPast, verbs.sow.past) &&
+                       checkInput(sowParticiple, verbs.sow.participle) &&
+                       checkInput(sowMeaning, verbs.sow.meaning);
+
+    resultText += sowCorrect  ? "sow: Correct!<br>" : "sow: Incorrect.<br>";
+
+    // Verificar 'speak'
+    const speakPast = document.getElementById('speak-past');
+    const speakParticiple = document.getElementById('speak-participle');
+    const speakMeaning = document.getElementById('speak-meaning');
+
+    let speakCorrect = checkInput(speakPast, verbs.speak.past) &&
+                       checkInput(speakParticiple, verbs.speak.participle) &&
+                       checkInput(speakMeaning, verbs.speak.meaning);
+
+    resultText += speakCorrect  ? "speak: Correct!<br>" : "speak: Incorrect.<br>";
+
+    // Verificar 'speed'
+    const speedPast = document.getElementById('speed-past');
+    const speedParticiple = document.getElementById('speed-participle');
+    const speedMeaning = document.getElementById('speed-meaning');
+
+    let speedCorrect = checkInput(speedPast, verbs.speed.past) &&
+                       checkInput(speedParticiple, verbs.speed.participle) &&
+                       checkInput(speedMeaning, verbs.speed.meaning);
+
+    resultText += speedCorrect  ? "speed: Correct!<br>" : "speed: Incorrect.<br>";
+
+    // Verificar 'spell'
+    const spellPast = document.getElementById('spell-past');
+    const spellParticiple = document.getElementById('spell-participle');
+    const spellMeaning = document.getElementById('spell-meaning');
+
+    let spellCorrect = checkInput(spellPast, verbs.spell.past) &&
+                       checkInput(spellParticiple, verbs.spell.participle) &&
+                       checkInput(spellMeaning, verbs.spell.meaning);
+
+    resultText += spellCorrect  ? "spell: Correct!<br>" : "spell: Incorrect.<br>";
+
+    // Verificar 'spend'
+    const spendPast = document.getElementById('spend-past');
+    const spendParticiple = document.getElementById('spend-participle');
+    const spendMeaning = document.getElementById('spend-meaning');
+
+    let spendCorrect = checkInput(spendPast, verbs.spend.past) &&
+                       checkInput(spendParticiple, verbs.spend.participle) &&
+                       checkInput(spendMeaning, verbs.spend.meaning);
+
+    resultText += spendCorrect  ? "spend: Correct!<br>" : "spend: Incorrect.<br>";
+
+    // Verificar 'spill'
+    const spillPast = document.getElementById('spill-past');
+    const spillParticiple = document.getElementById('spill-participle');
+    const spillMeaning = document.getElementById('spill-meaning');
+
+    let spillCorrect = checkInput(spillPast, verbs.spill.past) &&
+                       checkInput(spillParticiple, verbs.spill.participle) &&
+                       checkInput(spillMeaning, verbs.spill.meaning);
+
+    resultText += spillCorrect  ? "spill: Correct!<br>" : "spill: Incorrect.<br>";
+
+    // Verificar 'spin'
+    const spinPast = document.getElementById('spin-past');
+    const spinParticiple = document.getElementById('spin-participle');
+    const spinMeaning = document.getElementById('spin-meaning');
+
+    let spinCorrect = checkInput(spinPast, verbs.spin.past) &&
+                       checkInput(spinParticiple, verbs.spin.participle) &&
+                       checkInput(spinMeaning, verbs.spin.meaning);
+
+    resultText += spinCorrect  ? "spin: Correct!<br>" : "spin: Incorrect.<br>";
+
+    // Verificar 'spit'
+    const spitPast = document.getElementById('spit-past');
+    const spitParticiple = document.getElementById('spit-participle');
+    const spitMeaning = document.getElementById('spit-meaning');
+
+    let spitCorrect = checkInput(spitPast, verbs.spit.past) &&
+                       checkInput(spitParticiple, verbs.spit.participle) &&
+                       checkInput(spitMeaning, verbs.spit.meaning);
+
+    resultText += spitCorrect  ? "spit: Correct!<br>" : "spit: Incorrect.<br>";
+
+    // Verificar 'split'
+    const splitPast = document.getElementById('split-past');
+    const splitParticiple = document.getElementById('split-participle');
+    const splitMeaning = document.getElementById('split-meaning');
+
+    let splitCorrect = checkInput(splitPast, verbs.split.past) &&
+                       checkInput(splitParticiple, verbs.split.participle) &&
+                       checkInput(splitMeaning, verbs.split.meaning);
+
+    resultText += splitCorrect  ? "split: Correct!<br>" : "split: Incorrect.<br>";
+
+    // Verificar 'spoil'
+    const spoilPast = document.getElementById('spoil-past');
+    const spoilParticiple = document.getElementById('spoil-participle');
+    const spoilMeaning = document.getElementById('spoil-meaning');
+
+    let spoilCorrect = checkInput(spoilPast, verbs.spoil.past) &&
+                       checkInput(spoilParticiple, verbs.spoil.participle) &&
+                       checkInput(spoilMeaning, verbs.spoil.meaning);
+
+    resultText += spoilCorrect  ? "spoil: Correct!<br>" : "spoil: Incorrect.<br>";
+
+    // Verificar 'spread'
+    const spreadPast = document.getElementById('spread-past');
+    const spreadParticiple = document.getElementById('spread-participle');
+    const spreadMeaning = document.getElementById('spread-meaning');
+
+    let spreadCorrect = checkInput(spreadPast, verbs.spread.past) &&
+                       checkInput(spreadParticiple, verbs.spread.participle) &&
+                       checkInput(spreadMeaning, verbs.spread.meaning);
+
+    resultText += spreadCorrect  ? "spread: Correct!<br>" : "spread: Incorrect.<br>";
+
+    // Verificar 'spring'
+    const springPast = document.getElementById('spring-past');
+    const springParticiple = document.getElementById('spring-participle');
+    const springMeaning = document.getElementById('spring-meaning');
+
+    let springCorrect = checkInput(springPast, verbs.spring.past) &&
+                       checkInput(springParticiple, verbs.spring.participle) &&
+                       checkInput(springMeaning, verbs.spring.meaning);
+
+    resultText += springCorrect  ? "spring: Correct!<br>" : "spring: Incorrect.<br>";
+
+    // Verificar 'stand'
+    const standPast = document.getElementById('stand-past');
+    const standParticiple = document.getElementById('stand-participle');
+    const standMeaning = document.getElementById('stand-meaning');
+
+    let standCorrect = checkInput(standPast, verbs.stand.past) &&
+                       checkInput(standParticiple, verbs.stand.participle) &&
+                       checkInput(standMeaning, verbs.stand.meaning);
+
+    resultText += standCorrect  ? "stand: Correct!<br>" : "stand: Incorrect.<br>";
+
+    // Verificar 'steal'
+    const stealPast = document.getElementById('steal-past');
+    const stealParticiple = document.getElementById('steal-participle');
+    const stealMeaning = document.getElementById('steal-meaning');
+
+    let stealCorrect = checkInput(stealPast, verbs.steal.past) &&
+                       checkInput(stealParticiple, verbs.steal.participle) &&
+                       checkInput(stealMeaning, verbs.steal.meaning);
+
+    resultText += stealCorrect  ? "steal: Correct!<br>" : "steal: Incorrect.<br>";
+
+    // Verificar 'stick'
+    const stickPast = document.getElementById('stick-past');
+    const stickParticiple = document.getElementById('stick-participle');
+    const stickMeaning = document.getElementById('stick-meaning');
+
+    let stickCorrect = checkInput(stickPast, verbs.stick.past) &&
+                       checkInput(stickParticiple, verbs.stick.participle) &&
+                       checkInput(stickMeaning, verbs.stick.meaning);
+
+    resultText += stickCorrect  ? "stick: Correct!<br>" : "stick: Incorrect.<br>";
+
+    // Verificar 'sting'
+    const stingPast = document.getElementById('sting-past');
+    const stingParticiple = document.getElementById('sting-participle');
+    const stingMeaning = document.getElementById('sting-meaning');
+
+    let stingCorrect = checkInput(stingPast, verbs.sting.past) &&
+                       checkInput(stingParticiple, verbs.sting.participle) &&
+                       checkInput(stingMeaning, verbs.sting.meaning);
+
+    resultText += stingCorrect  ? "sting: Correct!<br>" : "sting: Incorrect.<br>";
+
+    // Verificar 'stink'
+    const stinkPast = document.getElementById('stink-past');
+    const stinkParticiple = document.getElementById('stink-participle');
+    const stinkMeaning = document.getElementById('stink-meaning');
+
+    let stinkCorrect = checkInput(stinkPast, verbs.stink.past) &&
+                       checkInput(stinkParticiple, verbs.stink.participle) &&
+                       checkInput(stinkMeaning, verbs.stink.meaning);
+
+    resultText += stinkCorrect  ? "stink: Correct!<br>" : "stink: Incorrect.<br>";
+
+    // Verificar 'stride'
+    const stridePast = document.getElementById('stride-past');
+    const strideParticiple = document.getElementById('stride-participle');
+    const strideMeaning = document.getElementById('stride-meaning');
+
+    let strideCorrect = checkInput(stridePast, verbs.stride.past) &&
+                       checkInput(strideParticiple, verbs.stride.participle) &&
+                       checkInput(strideMeaning, verbs.stride.meaning);
+
+    resultText += strideCorrect  ? "stride: Correct!<br>" : "stride: Incorrect.<br>";
+
+    // Verificar 'strike'
+    const strikePast = document.getElementById('strike-past');
+    const strikeParticiple = document.getElementById('strike-participle');
+    const strikeMeaning = document.getElementById('strike-meaning');
+
+    let strikeCorrect = checkInput(strikePast, verbs.strike.past) &&
+                       checkInput(strikeParticiple, verbs.strike.participle) &&
+                       checkInput(strikeMeaning, verbs.strike.meaning);
+
+    resultText += strikeCorrect  ? "strike: Correct!<br>" : "strike: Incorrect.<br>";
+
+    // Verificar 'string'
+    const stringPast = document.getElementById('string-past');
+    const stringParticiple = document.getElementById('string-participle');
+    const stringMeaning = document.getElementById('string-meaning');
+
+    let stringCorrect = checkInput(stringPast, verbs.string.past) &&
+                       checkInput(stringParticiple, verbs.string.participle) &&
+                       checkInput(stringMeaning, verbs.string.meaning);
+
+    resultText += stringCorrect  ? "string: Correct!<br>" : "string: Incorrect.<br>";
+
+    // Verificar 'strive'
+    const strivePast = document.getElementById('strive-past');
+    const striveParticiple = document.getElementById('strive-participle');
+    const striveMeaning = document.getElementById('strive-meaning');
+
+    let striveCorrect = checkInput(strivePast, verbs.strive.past) &&
+                       checkInput(striveParticiple, verbs.strive.participle) &&
+                       checkInput(striveMeaning, verbs.strive.meaning);
+
+    resultText += striveCorrect  ? "strive: Correct!<br>" : "strive: Incorrect.<br>";
+
+    // Verificar 'swear'
+    const swearPast = document.getElementById('swear-past');
+    const swearParticiple = document.getElementById('swear-participle');
+    const swearMeaning = document.getElementById('swear-meaning');
+
+    let swearCorrect = checkInput(swearPast, verbs.swear.past) &&
+                       checkInput(swearParticiple, verbs.swear.participle) &&
+                       checkInput(swearMeaning, verbs.swear.meaning);
+
+    resultText += swearCorrect  ? "swear: Correct!<br>" : "swear: Incorrect.<br>";
+
+    // Verificar 'sweat'
+    const sweatPast = document.getElementById('sweat-past');
+    const sweatParticiple = document.getElementById('sweat-participle');
+    const sweatMeaning = document.getElementById('sweat-meaning');
+
+    let sweatCorrect = checkInput(sweatPast, verbs.sweat.past) &&
+                       checkInput(sweatParticiple, verbs.sweat.participle) &&
+                       checkInput(sweatMeaning, verbs.sweat.meaning);
+
+    resultText += sweatCorrect  ? "sweat: Correct!<br>" : "sweat: Incorrect.<br>";
+
+    // Verificar 'sweep'
+    const sweepPast = document.getElementById('sweep-past');
+    const sweepParticiple = document.getElementById('sweep-participle');
+    const sweepMeaning = document.getElementById('sweep-meaning');
+
+    let sweepCorrect = checkInput(sweepPast, verbs.sweep.past) &&
+                       checkInput(sweepParticiple, verbs.sweep.participle) &&
+                       checkInput(sweepMeaning, verbs.sweep.meaning);
+
+    resultText += sweepCorrect  ? "sweep: Correct!<br>" : "sweep: Incorrect.<br>";
+
+    // Verificar 'swell'
+    const swellPast = document.getElementById('swell-past');
+    const swellParticiple = document.getElementById('swell-participle');
+    const swellMeaning = document.getElementById('swell-meaning');
+
+    let swellCorrect = checkInput(swellPast, verbs.swell.past) &&
+                       checkInput(swellParticiple, verbs.swell.participle) &&
+                       checkInput(swellMeaning, verbs.swell.meaning);
+
+    resultText += swellCorrect  ? "swell: Correct!<br>" : "swell: Incorrect.<br>";
     
 
+    // Verificar 'swim'
+    const swimPast = document.getElementById('swim-past');
+    const swimParticiple = document.getElementById('swim-participle');
+    const swimMeaning = document.getElementById('swim-meaning');
+
+    let swimCorrect = checkInput(swimPast, verbs.swim.past) &&
+                       checkInput(swimParticiple, verbs.swim.participle) &&
+                       checkInput(swimMeaning, verbs.swim.meaning);
+
+    resultText += swimCorrect  ? "swim: Correct!<br>" : "swim: Incorrect.<br>";
+
+    // Verificar 'swing'
+    const swingPast = document.getElementById('swing-past');
+    const swingParticiple = document.getElementById('swing-participle');
+    const swingMeaning = document.getElementById('swing-meaning');
+
+    let swingCorrect = checkInput(swingPast, verbs.swing.past) &&
+                       checkInput(swingParticiple, verbs.swing.participle) &&
+                       checkInput(swingMeaning, verbs.swing.meaning);
+
+    resultText += swingCorrect  ? "swing: Correct!<br>" : "swing: Incorrect.<br>";
+    
 
 
 
