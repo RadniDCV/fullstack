@@ -686,6 +686,21 @@ function checkAnswers() {
             participle: "smelt",
             meaning: "oler"
         },
+        sneak:{
+            past: "snuck",
+            participle: "snuck",
+            meaning: "moverse con cuidado"
+        },
+        sow:{
+            past: "sowed",
+            participle: "sown",
+            meaning: "sembrar"
+        },
+        speak:{
+            past: "spoke",
+            participle: "spoken",
+            meaning: "hablar"
+        },
 
         
 
