@@ -826,6 +826,91 @@ function checkAnswers() {
             participle: "swung",
             meaning: "balacear"
         },
+        take:{
+            past: "took",
+            participle: "taken",
+            meaning: "tomar"
+        },
+        teach:{
+            past: "taught",
+            participle: "taught",
+            meaning: "enseñar"
+        },
+        tear:{
+            past: "tore",
+            participle: "torn",
+            meaning: "desgarrar"
+        },
+        tell:{
+            past: "told",
+            participle: "told",
+            meaning: "decir"
+        },
+        think:{
+            past: "thought",
+            participle: "thought",
+            meaning: "pensar"
+        },
+        thrive:{
+            past: "throve",
+            participle: "thriven",
+            meaning: "prosperar"
+        },
+        throw:{
+            past: "threw",
+            participle: "thrown",
+            meaning: "arrojar"
+        },
+        thrust:{
+            past: "thrust",
+            participle: "thrust",
+            meaning: "empujar con fuerza"
+        },
+        tread:{
+            past: "trod",
+            participle: "trodden",
+            meaning: "pisar"
+        },
+        undergo:{
+            past: "underwent",
+            participle: "undergone",
+            meaning: "sufrir"
+        },
+        understand:{
+            past: "understood",
+            participle: "understood",
+            meaning: "entender"
+        },
+        upset:{
+            past: "upset",
+            participle: "upset",
+            meaning: "enfadar"
+        },
+        wake:{
+            past: "woke",
+            participle: "woken",
+            meaning: "despertar"
+        },
+        wear:{
+            past: "wore",
+            participle: "worn",
+            meaning: "vestir"
+        },
+        weave:{
+            past: "wove",
+            participle: "woven",
+            meaning: "tejer"
+        },
+        wed:{
+            past: "wed",
+            participle: "wed",
+            meaning: "casarse"
+        },
+        weep:{
+            past: "wept",
+            participle: "wept",
+            meaning: "llorar"
+        },
 
         
 
@@ -2654,6 +2739,204 @@ function checkAnswers() {
                        checkInput(swingMeaning, verbs.swing.meaning);
 
     resultText += swingCorrect  ? "swing: Correct!<br>" : "swing: Incorrect.<br>";
+
+    // Verificar 'take'
+    const takePast = document.getElementById('take-past');
+    const takeParticiple = document.getElementById('take-participle');
+    const takeMeaning = document.getElementById('take-meaning');
+
+    let takeCorrect = checkInput(takePast, verbs.take.past) &&
+                       checkInput(takeParticiple, verbs.take.participle) &&
+                       checkInput(takeMeaning, verbs.take.meaning);
+
+    resultText += takeCorrect  ? "take: Correct!<br>" : "take: Incorrect.<br>";
+
+    // Verificar 'teach'
+    const teachPast = document.getElementById('teach-past');
+    const teachParticiple = document.getElementById('teach-participle');
+    const teachMeaning = document.getElementById('teach-meaning');
+
+    let teachCorrect = checkInput(teachPast, verbs.teach.past) &&
+                       checkInput(teachParticiple, verbs.teach.participle) &&
+                       checkInput(teachMeaning, verbs.teach.meaning);
+
+    resultText += teachCorrect  ? "teach: Correct!<br>" : "teach: Incorrect.<br>";
+
+    // Verificar 'tear'
+    const tearPast = document.getElementById('tear-past');
+    const tearParticiple = document.getElementById('tear-participle');
+    const tearMeaning = document.getElementById('tear-meaning');
+
+    let tearCorrect = checkInput(tearPast, verbs.tear.past) &&
+                       checkInput(tearParticiple, verbs.tear.participle) &&
+                       checkInput(tearMeaning, verbs.tear.meaning);
+
+    resultText += tearCorrect  ? "tear: Correct!<br>" : "tear: Incorrect.<br>";
+
+    // Verificar 'tell'
+    const tellPast = document.getElementById('tell-past');
+    const tellParticiple = document.getElementById('tell-participle');
+    const tellMeaning = document.getElementById('tell-meaning');
+
+    let tellCorrect = checkInput(tellPast, verbs.tell.past) &&
+                       checkInput(tellParticiple, verbs.tell.participle) &&
+                       checkInput(tellMeaning, verbs.tell.meaning);
+
+    resultText += tellCorrect  ? "tell: Correct!<br>" : "tell: Incorrect.<br>";
+
+    // Verificar 'think'
+    const thinkPast = document.getElementById('think-past');
+    const thinkParticiple = document.getElementById('think-participle');
+    const thinkMeaning = document.getElementById('think-meaning');
+
+    let thinkCorrect = checkInput(thinkPast, verbs.think.past) &&
+                       checkInput(thinkParticiple, verbs.think.participle) &&
+                       checkInput(thinkMeaning, verbs.think.meaning);
+
+    resultText += thinkCorrect  ? "think: Correct!<br>" : "think: Incorrect.<br>";
+
+    // Verificar 'thrive'
+    const thrivePast = document.getElementById('thrive-past');
+    const thriveParticiple = document.getElementById('thrive-participle');
+    const thriveMeaning = document.getElementById('thrive-meaning');
+
+    let thriveCorrect = checkInput(thrivePast, verbs.thrive.past) &&
+                       checkInput(thriveParticiple, verbs.thrive.participle) &&
+                       checkInput(thriveMeaning, verbs.thrive.meaning);
+
+    resultText += thriveCorrect  ? "thrive: Correct!<br>" : "thrive: Incorrect.<br>";
+
+    // Verificar 'throw'
+    const throwPast = document.getElementById('throw-past');
+    const throwParticiple = document.getElementById('throw-participle');
+    const throwMeaning = document.getElementById('throw-meaning');
+
+    let throwCorrect = checkInput(throwPast, verbs.throw.past) &&
+                       checkInput(throwParticiple, verbs.throw.participle) &&
+                       checkInput(throwMeaning, verbs.throw.meaning);
+
+    resultText += throwCorrect  ? "throw: Correct!<br>" : "throw: Incorrect.<br>";
+
+    // Verificar 'thrust'
+    const thrustPast = document.getElementById('thrust-past');
+    const thrustParticiple = document.getElementById('thrust-participle');
+    const thrustMeaning = document.getElementById('thrust-meaning');
+
+    let thrustCorrect = checkInput(thrustPast, verbs.thrust.past) &&
+                       checkInput(thrustParticiple, verbs.thrust.participle) &&
+                       checkInput(thrustMeaning, verbs.thrust.meaning);
+
+    resultText += thrustCorrect  ? "thrust: Correct!<br>" : "thrust: Incorrect.<br>";
+
+    // Verificar 'tread'
+    const treadPast = document.getElementById('tread-past');
+    const treadParticiple = document.getElementById('tread-participle');
+    const treadMeaning = document.getElementById('tread-meaning');
+
+    let treadCorrect = checkInput(treadPast, verbs.tread.past) &&
+                       checkInput(treadParticiple, verbs.tread.participle) &&
+                       checkInput(treadMeaning, verbs.tread.meaning);
+
+    resultText += treadCorrect  ? "tread: Correct!<br>" : "tread: Incorrect.<br>";
+
+    // Verificar 'undergo'
+    const undergoPast = document.getElementById('undergo-past');
+    const undergoParticiple = document.getElementById('undergo-participle');
+    const undergoMeaning = document.getElementById('undergo-meaning');
+
+    let undergoCorrect = checkInput(undergoPast, verbs.undergo.past) &&
+                       checkInput(undergoParticiple, verbs.undergo.participle) &&
+                       checkInput(undergoMeaning, verbs.undergo.meaning);
+
+    resultText += undergoCorrect  ? "undergo: Correct!<br>" : "undergo: Incorrect.<br>";
+
+    // Verificar 'understand'
+    const understandPast = document.getElementById('understand-past');
+    const understandParticiple = document.getElementById('understand-participle');
+    const understandMeaning = document.getElementById('understand-meaning');
+
+    let understandCorrect = checkInput(understandPast, verbs.understand.past) &&
+                       checkInput(understandParticiple, verbs.understand.participle) &&
+                       checkInput(understandMeaning, verbs.understand.meaning);
+
+    resultText += understandCorrect  ? "understand: Correct!<br>" : "understand: Incorrect.<br>";
+    
+    // Verificar 'undertake'
+    const undertakePast = document.getElementById('undertake-past');
+    const undertakeParticiple = document.getElementById('undertake-participle');
+    const undertakeMeaning = document.getElementById('undertake-meaning');
+
+    let undertakeCorrect = checkInput(undertakePast, verbs.undertake.past) &&
+                       checkInput(undertakeParticiple, verbs.undertake.participle) &&
+                       checkInput(undertakeMeaning, verbs.undertake.meaning);
+
+    resultText += undertakeCorrect  ? "undertake: Correct!<br>" : "undertake: Incorrect.<br>";
+    
+    // Verificar 'upset'
+    const upsetPast = document.getElementById('upset-past');
+    const upsetParticiple = document.getElementById('upset-participle');
+    const upsetMeaning = document.getElementById('upset-meaning');
+
+    let upsetCorrect = checkInput(upsetPast, verbs.upset.past) &&
+                       checkInput(upsetParticiple, verbs.upset.participle) &&
+                       checkInput(upsetMeaning, verbs.upset.meaning);
+
+    resultText += upsetCorrect  ? "upset: Correct!<br>" : "upset: Incorrect.<br>";
+    
+    // Verificar 'wake'
+    const wakePast = document.getElementById('wake-past');
+    const wakeParticiple = document.getElementById('wake-participle');
+    const wakeMeaning = document.getElementById('wake-meaning');
+
+    let wakeCorrect = checkInput(wakePast, verbs.wake.past) &&
+                       checkInput(wakeParticiple, verbs.wake.participle) &&
+                       checkInput(wakeMeaning, verbs.wake.meaning);
+
+    resultText += wakeCorrect  ? "wake: Correct!<br>" : "wake: Incorrect.<br>";
+    
+    // Verificar 'wear'
+    const wearPast = document.getElementById('wear-past');
+    const wearParticiple = document.getElementById('wear-participle');
+    const wearMeaning = document.getElementById('wear-meaning');
+
+    let wearCorrect = checkInput(wearPast, verbs.wear.past) &&
+                       checkInput(wearParticiple, verbs.wear.participle) &&
+                       checkInput(wearMeaning, verbs.wear.meaning);
+
+    resultText += wearCorrect  ? "wear: Correct!<br>" : "wear: Incorrect.<br>";
+    
+    // Verificar 'weave'
+    const weavePast = document.getElementById('weave-past');
+    const weaveParticiple = document.getElementById('weave-participle');
+    const weaveMeaning = document.getElementById('weave-meaning');
+
+    let weaveCorrect = checkInput(weavePast, verbs.weave.past) &&
+                       checkInput(weaveParticiple, verbs.weave.participle) &&
+                       checkInput(weaveMeaning, verbs.weave.meaning);
+
+    resultText += weaveCorrect  ? "weave: Correct!<br>" : "weave: Incorrect.<br>";
+    
+    // Verificar 'wed'
+    const wedPast = document.getElementById('wed-past');
+    const wedParticiple = document.getElementById('wed-participle');
+    const wedMeaning = document.getElementById('wed-meaning');
+
+    let wedCorrect = checkInput(wedPast, verbs.wed.past) &&
+                       checkInput(wedParticiple, verbs.wed.participle) &&
+                       checkInput(wedMeaning, verbs.wed.meaning);
+
+    resultText += wedCorrect  ? "wed: Correct!<br>" : "wed: Incorrect.<br>";
+    
+    // Verificar 'weep'
+    const weepPast = document.getElementById('weep-past');
+    const weepParticiple = document.getElementById('weep-participle');
+    const weepMeaning = document.getElementById('weep-meaning');
+
+    let weepCorrect = checkInput(weepPast, verbs.weep.past) &&
+                       checkInput(weepParticiple, verbs.weep.participle) &&
+                       checkInput(weepMeaning, verbs.weep.meaning);
+
+    resultText += weepCorrect  ? "weep: Correct!<br>" : "weep: Incorrect.<br>";
     
 
 
