@@ -881,6 +881,11 @@ function checkAnswers() {
             participle: "understood",
             meaning: "entender"
         },
+        undertake:{
+            past: "undertook",
+            participle: "undertaken",
+            meaning: "emprender"
+        },
         upset:{
             past: "upset",
             participle: "upset",
