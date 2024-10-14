@@ -916,6 +916,46 @@ function checkAnswers() {
             participle: "wept",
             meaning: "llorar"
         },
+        wet:{
+            past: "wet",
+            participle: "wet",
+            meaning: "mojar"
+        },
+        win:{
+            past: "won",
+            participle: "won",
+            meaning: "ganar"
+        },
+        wind:{
+            past: "wound",
+            participle: "wound",
+            meaning: "envolver"
+        },
+        withdraw:{
+            past: "withdrew",
+            participle: "withdrawn",
+            meaning: "sacar"
+        },
+        withhold:{
+            past: "withheld",
+            participle: "withheld",
+            meaning: "ocultar"
+        },
+        withstand:{
+            past: "withstood",
+            participle: "withstood",
+            meaning: "resistir"
+        },
+        wring:{
+            past: "wrung",
+            participle: "wrung",
+            meaning: "escurrir"
+        },
+        write:{
+            past: "wrote",
+            participle: "written",
+            meaning: "escribir"
+        },
 
         
 
