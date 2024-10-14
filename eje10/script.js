@@ -2983,6 +2983,105 @@ function checkAnswers() {
 
     resultText += weepCorrect  ? "weep: Correct!<br>" : "weep: Incorrect.<br>";
     
+    // Verificar 'wet'
+    const wetPast = document.getElementById('wet-past');
+    const wetParticiple = document.getElementById('wet-participle');
+    const wetMeaning = document.getElementById('wet-meaning');
+
+    let wetCorrect = checkInput(wetPast, verbs.wet.past) &&
+                       checkInput(wetParticiple, verbs.wet.participle) &&
+                       checkInput(wetMeaning, verbs.wet.meaning);
+
+    resultText += wetCorrect  ? "wet: Correct!<br>" : "wet: Incorrect.<br>";
+    
+    // Verificar 'win'
+    const winPast = document.getElementById('win-past');
+    const winParticiple = document.getElementById('win-participle');
+    const winMeaning = document.getElementById('win-meaning');
+
+    let winCorrect = checkInput(winPast, verbs.win.past) &&
+                       checkInput(winParticiple, verbs.win.participle) &&
+                       checkInput(winMeaning, verbs.win.meaning);
+
+    resultText += winCorrect  ? "win: Correct!<br>" : "win: Incorrect.<br>";
+    
+    // Verificar 'wind'
+    const windPast = document.getElementById('wind-past');
+    const windParticiple = document.getElementById('wind-participle');
+    const windMeaning = document.getElementById('wind-meaning');
+
+    let windCorrect = checkInput(windPast, verbs.wind.past) &&
+                       checkInput(windParticiple, verbs.wind.participle) &&
+                       checkInput(windMeaning, verbs.wind.meaning);
+
+    resultText += windCorrect  ? "wind: Correct!<br>" : "wind: Incorrect.<br>";
+    
+    // Verificar 'withdrew'
+    const withdrewPast = document.getElementById('withdrew-past');
+    const withdrewParticiple = document.getElementById('withdrew-participle');
+    const withdrewMeaning = document.getElementById('withdrew-meaning');
+
+    let withdrewCorrect = checkInput(withdrewPast, verbs.withdrew.past) &&
+                       checkInput(withdrewParticiple, verbs.withdrew.participle) &&
+                       checkInput(withdrewMeaning, verbs.withdrew.meaning);
+
+    resultText += withdrewCorrect  ? "withdrew: Correct!<br>" : "withdrew: Incorrect.<br>";
+    
+    // Verificar 'withdraw'
+    const withdrawPast = document.getElementById('withdraw-past');
+    const withdrawParticiple = document.getElementById('withdraw-participle');
+    const withdrawMeaning = document.getElementById('withdraw-meaning');
+
+    let withdrawCorrect = checkInput(withdrawPast, verbs.withdraw.past) &&
+                       checkInput(withdrawParticiple, verbs.withdraw.participle) &&
+                       checkInput(withdrawMeaning, verbs.withdraw.meaning);
+
+    resultText += withdrawCorrect  ? "withdraw: Correct!<br>" : "withdraw: Incorrect.<br>";
+    
+    // Verificar 'withhold'
+    const withholdPast = document.getElementById('withhold-past');
+    const withholdParticiple = document.getElementById('withhold-participle');
+    const withholdMeaning = document.getElementById('withhold-meaning');
+
+    let withholdCorrect = checkInput(withholdPast, verbs.withhold.past) &&
+                       checkInput(withholdParticiple, verbs.withhold.participle) &&
+                       checkInput(withholdMeaning, verbs.withhold.meaning);
+
+    resultText += withholdCorrect  ? "withhold: Correct!<br>" : "withhold: Incorrect.<br>";
+    
+    // Verificar 'withstand'
+    const withstandPast = document.getElementById('withstand-past');
+    const withstandParticiple = document.getElementById('withstand-participle');
+    const withstandMeaning = document.getElementById('withstand-meaning');
+
+    let withstandCorrect = checkInput(withstandPast, verbs.withstand.past) &&
+                       checkInput(withstandParticiple, verbs.withstand.participle) &&
+                       checkInput(withstandMeaning, verbs.withstand.meaning);
+
+    resultText += withstandCorrect  ? "withstand: Correct!<br>" : "withstand: Incorrect.<br>";
+    
+    // Verificar 'wring'
+    const wringPast = document.getElementById('wring-past');
+    const wringParticiple = document.getElementById('wring-participle');
+    const wringMeaning = document.getElementById('wring-meaning');
+
+    let wringCorrect = checkInput(wringPast, verbs.wring.past) &&
+                       checkInput(wringParticiple, verbs.wring.participle) &&
+                       checkInput(wringMeaning, verbs.wring.meaning);
+
+    resultText += wringCorrect  ? "wring: Correct!<br>" : "wring: Incorrect.<br>";
+    
+    // Verificar 'write'
+    const writePast = document.getElementById('write-past');
+    const writeParticiple = document.getElementById('write-participle');
+    const writeMeaning = document.getElementById('write-meaning');
+
+    let writeCorrect = checkInput(writePast, verbs.write.past) &&
+                       checkInput(writeParticiple, verbs.write.participle) &&
+                       checkInput(writeMeaning, verbs.write.meaning);
+
+    resultText += writeCorrect  ? "write: Correct!<br>" : "write: Incorrect.<br>";
+    
 
 
 
