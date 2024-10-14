@@ -3015,18 +3015,7 @@ function checkAnswers() {
                        checkInput(windMeaning, verbs.wind.meaning);
 
     resultText += windCorrect  ? "wind: Correct!<br>" : "wind: Incorrect.<br>";
-    
-    // Verificar 'withdrew'
-    const withdrewPast = document.getElementById('withdrew-past');
-    const withdrewParticiple = document.getElementById('withdrew-participle');
-    const withdrewMeaning = document.getElementById('withdrew-meaning');
-
-    let withdrewCorrect = checkInput(withdrewPast, verbs.withdrew.past) &&
-                       checkInput(withdrewParticiple, verbs.withdrew.participle) &&
-                       checkInput(withdrewMeaning, verbs.withdrew.meaning);
-
-    resultText += withdrewCorrect  ? "withdrew: Correct!<br>" : "withdrew: Incorrect.<br>";
-    
+           
     // Verificar 'withdraw'
     const withdrawPast = document.getElementById('withdraw-past');
     const withdrawParticiple = document.getElementById('withdraw-participle');
@@ -3081,9 +3070,6 @@ function checkAnswers() {
                        checkInput(writeMeaning, verbs.write.meaning);
 
     resultText += writeCorrect  ? "write: Correct!<br>" : "write: Incorrect.<br>";
-    
-
-
 
     document.getElementById('result').innerHTML = resultText;
 }
