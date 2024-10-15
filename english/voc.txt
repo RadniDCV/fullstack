@@ -1,20 +1,19 @@
 1.	¿Te sientes cómodo trabajando en equipo o prefieres trabajar solo?
-Prefiero trabajar solo
+
 2.	¿Te gusta resolver problemas lógicos o matemáticos?
-Prefiero resolver problemas logicos
+
 3.	¿Disfrutas de tareas que requieren creatividad e innovación?
-Si me gusta la creatividad e innovacion
+
 4.	¿Prefieres trabajos que te permiten moverte y estar físicamente activo, o aquellos que te permiten estar en un escritorio?
-Los que este en un escritorio
+
 5.	¿Te interesa ayudar a las personas con sus problemas o necesidades?
-si me interesa
+
 6.	¿Te sientes motivado por liderar proyectos o equipos?
-SI desearia liderar equipos
+
 7.	¿Te gusta trabajar con tecnología y aprender sobre nuevos dispositivos o software?
-Me gusta mas el software
+
 8.	¿Te interesa investigar y analizar datos para encontrar soluciones?
-Si me interesa analizar datos
+
 9.	¿Te consideras una persona organizada y con habilidades para planificar?
-me considero una no tan organizada pero si planifico
+
 10.	¿Te gusta enseñar o compartir tu conocimiento con otros?
-si me gusta enseñar
