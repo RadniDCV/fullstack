@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0;
     padding: 0;
 }
@@ -23,6 +23,7 @@ body{
 }
 
 .dogs{
+    padding-left: 25px;
     width: 35%;
     height: 60vh;
 }
