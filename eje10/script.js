@@ -3,7 +3,7 @@ function checkAnswers() {
         abide: {
             past: "abode",
             participle: "abiden",
-            meaning: "sufrir"
+            meaning: "cumplir"
         },
         arise: {
             past: "arose",
