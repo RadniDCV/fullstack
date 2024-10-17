@@ -1,5 +1,5 @@
 *{
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -26,8 +26,15 @@ body{
     padding-left: 25px;
     width: 35%;
     height: 60vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url('./images/dog01.png');
+    background-size: cover;
+    background-position: center;
 }
 
+h2{
+    width: 100%;
+    color: #f2f2f2;
+}
 p{
     width: 65%;
     
@@ -42,6 +49,9 @@ p{
     display: flex;
     flex-direction: row;
     text-align: justify;
+    
+   
+
 }
 
 
