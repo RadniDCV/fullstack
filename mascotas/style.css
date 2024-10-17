@@ -26,9 +26,7 @@ body{
     padding-left: 35px;
     width: 35%;
     height: 60vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url('./images/dog01.png');
-    background-size: cover;
-    background-position: center;
+    
 }
 
 h2{
