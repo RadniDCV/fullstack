@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigator{
+    background-color: #faedb5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navigator ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+}
