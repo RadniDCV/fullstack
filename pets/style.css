@@ -1,6 +1,8 @@
 *{
+    border: 1px solid green;
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navigator{
@@ -17,4 +19,9 @@
     flex-direction: row;
     justify-content:flex-end;
 
+}
+
+.navigator ul li{
+    margin-right: 20px;
+    font-size: 1.3rem;
 }
