@@ -1,6 +1,6 @@
 verbs
 
-Abide,	        Abode,	            Abiden,	            Sufrir.
+Abide,	        Abode,	            Abiden,	            Permanecer.
 Arise,	        Arose,	            Arisen,	            Surgir.
 Awake,	        Awoke,	            Awoken,	            Despertar.
 Be,	            Was,	            Been,	            Ser - Estar.
