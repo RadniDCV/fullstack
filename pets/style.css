@@ -1,5 +1,5 @@
 *{
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
@@ -37,7 +37,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-     
+    padding-top: 35px;
+      
 }
 
 h1{
@@ -46,6 +47,19 @@ h1{
 }
 
 .img01{
-    width: 60%;
-    height: 65%;
+    width: 20%;
+    height: 55%;
+}
+.barra{
+    display: flex;
+    background-color: #793200;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 5vh;
+}
+
+.section02{
+    background-color: #f6eddf;
+    height: 150vh;
 }
