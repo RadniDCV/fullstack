@@ -61,7 +61,7 @@ h1{
 
 .section02{
     background-color: #f6eddf;
-    height: 150vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -117,4 +117,10 @@ h1{
     background-color: #e1b084;
     text-align: center;
     padding-top: 40px;
+}
+
+
+footer{
+    background-color: #7d4501;
+    height: 75px;
 }
