@@ -10,6 +10,7 @@
 .navigator{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     background-color: #f6eddf;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -28,6 +29,10 @@
 .navigator ul li{
     margin-right: 20px;
     font-size: 1.3rem;
+}
+
+.input01{
+    height: 30px;
 }
 
 .search{
@@ -49,7 +54,7 @@
 }
 
 .search:hover {
-    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+    background-image: linear-gradient(-180deg, #f4cfa1 0%, #fab368 100%);
   }
   
 
