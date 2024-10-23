@@ -1,4 +1,4 @@
-*{
+* {
     /*border: 1px solid green;*/
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
     /*edcbb7*/
 }
 
-.navigator{
+.navigator {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -18,52 +18,54 @@
     padding-left: 20px;
 }
 
-.navigator ul{
+.navigator ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content: flex-end;
 
 }
 
-.navigator ul li{
+.navigator ul li {
     margin-right: 20px;
     font-size: 1.3rem;
 }
 
-.input01{
+.input01 {
     height: 30px;
 }
 
-.search{
+.search {
     background-image: linear-gradient(-180deg, #9d4c04 0%, #f1bc7f 100%);
-  border-radius: .5rem;
-  box-sizing: border-box;
-  color: #f4e6df;
-  display: flex;
-  font-size: 16px;
-  justify-content: center;
-  padding: 1rem 1.75rem;
-  text-decoration: none;
-  width: 10%;
-  border: 0;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    width: 10%;
+    height: 30px;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #f4e6df;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .search:hover {
     background-image: linear-gradient(-180deg, #f4cfa1 0%, #fab368 100%);
-  }
-  
+}
+
 
 /*<!-- HTML !-->
 <button class="button-43" role="button">Button 43</button>*/
 
 
 
-.section01{
+.section01 {
     background-color: #edcbb7;
     display: flex;
     flex-direction: column;
@@ -71,19 +73,20 @@
     align-items: center;
     width: 100%;
     padding-top: 35px;
-      
+
 }
 
-h1{
+h1 {
     padding: 25px;
     font-size: 1.6rem;
 }
 
-.img01{
+.img01 {
     width: 20%;
     height: 55%;
 }
-.barra{
+
+.barra {
     display: flex;
     background-color: #793200;
     background-repeat: no-repeat;
@@ -92,7 +95,7 @@ h1{
     height: 5vh;
 }
 
-.section02{
+.section02 {
     background-color: #f6eddf;
     height: 80vh;
     display: flex;
@@ -100,13 +103,13 @@ h1{
     justify-content: space-around;
 }
 
-.tarjeta01{
+.tarjeta01 {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.card{
+.card {
     display: grid;
     justify-items: center;
     margin-top: 50px;
@@ -118,7 +121,7 @@ h1{
     box-shadow: 0px 0px 25px #ffbd83;
 }
 
-.card img{
+.card img {
     margin-top: 40px;
     box-shadow: 0px 0px 10px goldenrod;
     width: 60%;
@@ -126,24 +129,24 @@ h1{
     object-fit: scale-down;
 }
 
-.card p{
+.card p {
     text-align: center;
 }
 
-.card p:nth-child(3){
+.card p:nth-child(3) {
     color: #808080;
     margin-top: -60px;
     font-size: 20px;
 }
 
-.card p:nth-child(2){
+.card p:nth-child(2) {
     margin-top: 20px;
     font-weight: 600;
     font-size: 30px;
     color: #723b00;
 }
 
-.card #boton{
+.card #boton {
     color: #fff;
     font-size: 30px;
     width: 100%;
@@ -153,7 +156,7 @@ h1{
 }
 
 
-footer{
+footer {
     background-color: #7d4501;
     height: 75px;
 }
@@ -161,6 +164,11 @@ footer{
 
 @media (min-width: 768px) {
     .search {
-      padding: 1rem 2rem;
+        padding: 1rem 2rem;
     }
-  }
+    .section02{
+        display: flex;
+        flex-direction: column;
+           
+    }
+}
