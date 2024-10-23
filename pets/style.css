@@ -159,8 +159,24 @@ h1 {
 footer {
     background-color: #7d4501;
     height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
+.fa-youtube-play{
+    font-size: 3rem;
+    color: #ff0000;
+}
+.fa-facebook-official{
+    font-size: 2.4rem;
+    color: #0000ff;
+}
+.fa-instagram{
+    font-size: 3rem;
+    color: #ffa500;
+}
 
 @media (width <= 768px) {
     .search {
