@@ -168,14 +168,23 @@ footer {
 .fa-youtube-play{
     font-size: 3rem;
     color: #ff0000;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
 }
 .fa-facebook-official{
     font-size: 2.4rem;
     color: #0000ff;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
 }
 .fa-instagram{
     font-size: 3rem;
     color: #ffa500;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 @media (width <= 768px) {
