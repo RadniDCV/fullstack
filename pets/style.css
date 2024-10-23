@@ -169,23 +169,34 @@ footer {
     font-size: 3rem;
     color: #ff0000;
     background-color: #fff;
-    padding: 5px;
-    border-radius: 15px;
+    
+    
 }
 .fa-facebook-official{
     font-size: 2.4rem;
     color: #0000ff;
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 15px;
+    background: #fff;
+    
+    
 }
 .fa-instagram{
     font-size: 3rem;
-    color: #ffa500;
-    background-color: #fff;
+    
     padding: 5px;
     border-radius: 15px;
 }
+
+@supports (
+  (-webkit-background-clip: text) or (-webkit-text-fill-color: transparent)
+) {
+  .fa-instagram {
+    background: linear-gradient(to right, #fa4261, #f39762, #d5aa10);
+    background-size: cover;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+  }
+}
+
 
 @media (width <= 768px) {
     .search {
