@@ -190,7 +190,7 @@ footer {
   (-webkit-background-clip: text) or (-webkit-text-fill-color: transparent)
 ) {
   .fa-instagram {
-    background: linear-gradient(to right, #fa4261, #f39762, #d5aa10);
+    background: linear-gradient(to left, #fa4261, #f39762, #d5aa10);
     background-size: cover;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
