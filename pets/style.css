@@ -162,13 +162,16 @@ footer {
 }
 
 
-@media (min-width: 768px) {
+@media (width <= 768px) {
     .search {
         padding: 1rem 2rem;
     }
     .section02{
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        height: 160vh;
            
     }
 }
+
