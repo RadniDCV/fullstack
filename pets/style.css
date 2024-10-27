@@ -7,6 +7,16 @@
     /*edcbb7*/
 }
 
+.link01{
+    text-decoration: none;
+    color: #793200;
+}
+
+.link01:hover{
+    color: #de8b43;
+    
+}
+
 .navigator {
     display: flex;
     justify-content: flex-end;
@@ -60,8 +70,6 @@
 }
 
 
-/*<!-- HTML !-->
-<button class="button-43" role="button">Button 43</button>*/
 
 
 
