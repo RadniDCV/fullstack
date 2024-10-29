@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+}
+.navigator{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fe862a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navigator ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.navigator ul li {
+    margin-right: 20px;
+    font-size:1.3rem;
+}
+
+.link01{
+    text-decoration: none;
+    color: #ebeaea;
+}
+
+.link01:hover{
+    color: #f54a1f;
+    
+}
