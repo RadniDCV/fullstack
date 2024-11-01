@@ -63,6 +63,10 @@ body {
     /*animation: flash 0.2s ease-out infinite;*/
 }
 
+.div01{
+    color: #ffffff;
+}
+
 @keyframes flash {
 
     0%,
