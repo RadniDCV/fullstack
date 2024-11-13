@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -8,6 +13,11 @@ body{
 }
 .login-box{
     width: 350px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #777777; 
 }
 input{
     display: inline-block;
