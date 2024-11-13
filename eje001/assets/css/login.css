@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d6d7d8;
+}
+.login-box{
+    width: 350px;
+}
+input{
+    display: inline-block;
+    width: 100%;
+}
+
