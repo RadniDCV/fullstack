@@ -13,21 +13,31 @@
     <div class="login-box">
         <div class="top-circle"></div>
         <div class="bottom-circle"></div>
-        <form action="">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
+        <div class="login-header">
+            <h1>Login to your panel</h1>
+        </div>
+        <div class="login-body">
+            <form action="">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
 
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+               
+
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Remember me</label>
+
+                <input class="button" type="submit" value="login">
+               
+
+            </form>
+        </div>
+        <div class="login-footer">
             <a href="#">I forget my password</a>
-
-            <input type="checkbox" name="remember" id="remember">
-            <label for="remember">Remember me</label>
-
-            <input type="submit" value="login">
+            <br>
             <a href="#">Create an account</a>
-
-        </form>
+        </div>
     </div>
 </body>
 

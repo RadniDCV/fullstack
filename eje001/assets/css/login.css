@@ -1,3 +1,10 @@
+:root{
+    --background : rgb(153,217,234);
+    --border :rgb(0,162,232);
+    --padding-normal:10px;
+
+}
+
 *{
     box-sizing: border-box;
 }
@@ -14,16 +21,39 @@ body{
 .login-box{
     width: 350px;
     background-color: #fff;
-    padding: 5px;
+    /*padding: 5px;*/
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 1px 1px 2px #777777; 
     position: relative;
 }
+.login-header{
+    padding: var(--padding-normal);
+    border-bottom: 1px solid var(--border);
+    background-color: var(--background);
+    text-align: center;
+    
+}
+.login-body{
+    padding: var(--padding-normal);
+}
+.login-footer{
+    padding: var(--padding-normal);
+    border-top:  1px solid var(--border);
+    text-align: center;
+}
+
 input{
     display: inline-block;
     width: 100%;
 }
+.button{
+    margin-top: 10px;
+    background-color: var(--background);
+    border: 2px solid var(--border);
+    padding: var(--padding-normal);
+}
+
 .top-circle, .bottom-circle{
     width: 50px;
     height: 50px;
