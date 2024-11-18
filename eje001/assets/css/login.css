@@ -18,6 +18,24 @@ body{
     height: 100vh;
     background-color: #d6d7d8;
 }
+a{
+    text-decoration: none;
+    color: var(--border);
+}
+
+/*a:link{
+    color: #ff0000;
+}*/
+a:hover{
+    color: cornflowerblue;
+}
+a:active{
+    color: purple;
+}
+a:visited{
+    color: green;
+}
+
 .login-box{
     width: 350px;
     background-color: #fff;
@@ -46,6 +64,10 @@ body{
 input{
     display: inline-block;
     width: 100%;
+    border: 0;
+    outline: 1px solid #ccc;
+    padding: var(--padding-normal);
+    margin-bottom: 10px ;
 }
 .button{
     margin-top: 10px;
