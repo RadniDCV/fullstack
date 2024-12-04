@@ -3,13 +3,13 @@ import numpy as np
 from twilio.rest import Client
 
 # Configuración de Twilio
-account_sid = "AC95f2989cf5cf89216780cb0b5f4bbf87"  # Reemplaza con tu SID de cuenta
-auth_token = "2dc9da8e5754788fa71152abff1df142"    # Reemplaza con tu token de autenticación
+account_sid = ""  # Reemplaza con tu SID de cuenta
+auth_token = ""    # Reemplaza con tu token de autenticación
 twilio_client = Client(account_sid, auth_token)
 
 # Números de WhatsApp
-from_whatsapp_number = "whatsapp:+14155238886"  # Número de Twilio
-to_whatsapp_number = "whatsapp:+59167159427"      # Tu número de WhatsApp
+from_whatsapp_number = "whatsapp:+"  # Número de Twilio
+to_whatsapp_number = "whatsapp:+"      # Tu número de WhatsApp
 
 def send_whatsapp_alert(change_percentage):
     message = f"⚠️ ALERTA: El río ha crecido significativamente. Cambio detectado: {change_percentage:.2f}%."
