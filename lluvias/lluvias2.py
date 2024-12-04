@@ -3,8 +3,8 @@ import numpy as np
 from twilio.rest import Client
 
 # Configuración de Twilio
-account_sid = "AC95f2989cf5cf89216780cb0b5f4bbf87"  # Reemplaza con tu SID de cuenta
-auth_token = "2dc9da8e5754788fa71152abff1df142"    # Reemplaza con tu token de autenticación
+account_sid = "0"  # Reemplaza con tu SID de cuenta
+auth_token = "0"    # Reemplaza con tu token de autenticación
 twilio_client = Client(account_sid, auth_token)
 
 # Números de WhatsApp
