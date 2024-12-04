@@ -19,7 +19,7 @@ cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 # Definir el umbral para el crecimiento del río
-growth_threshold = 60.0  # Porcentaje mínimo de cambio para considerar que el río creció
+growth_threshold = 55.0  # Porcentaje mínimo de cambio para considerar que el río creció
 
 # Procesar imágenes en tiempo real
 try:
