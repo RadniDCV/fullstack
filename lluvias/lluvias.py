@@ -71,6 +71,6 @@ try:
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 finally:
-    # Liberar la cámara y cerrar ventanas
+    # Liberar la cámara y cerrar ventanas al salir
     cap.release()
     cv2.destroyAllWindows()
