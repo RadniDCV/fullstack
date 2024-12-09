@@ -37,9 +37,9 @@ if not cap.isOpened():
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
-growth_threshold = 65.0  # Porcentaje mínimo de cambio para activar la alerta
+growth_threshold = 65.0  # Porcentaje mínimo de cambio para activar la alerta 65%
 
-alert_sent = False  # Variable para evitar múltiples envíos de alertas
+alert_sent = False  # Variable para evitar múltiples envíos de alertas  
 
 try:
     while True:
