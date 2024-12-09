@@ -9,7 +9,7 @@ ref_image = cv2.imread(ref_image_path, cv2.IMREAD_GRAYSCALE)
 if ref_image is None:
     raise Exception("No se pudo cargar la imagen de referencia.")
 
-# Inicializar la cámara (cámara por defecto, usa 0)
+# Inicializar la cámara (cámara por defecto, usa 0) el iphone en mi caso
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     raise Exception("No se pudo acceder a la cámara.")
@@ -18,8 +18,8 @@ if not cap.isOpened():
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
-# Definir el umbral para el crecimiento del río
-growth_threshold = 55.0  # Porcentaje mínimo de cambio para considerar que el río creció
+# Definir el umbral para el crecimiento del río 
+growth_threshold = 55.0  # Porcentaje mínimo de cambio para considerar que el río creció 55%
 
 # Procesar imágenes en tiempo real
 try:
