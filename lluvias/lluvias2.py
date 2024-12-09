@@ -70,7 +70,7 @@ try:
             cv2.putText(result_image, "ALERTA: RIO CRECIDO", (10, 70),
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
             send_whatsapp_alert(change_percentage)
-            alert_sent = True  # Asegurarse de que solo se envíe una alerta
+            alert_sent = True  # Asegurarse de que solo se envíe una alerta cuando el nivel del agua crece
 
         cv2.imshow("Diferencias Detectadas", result_image)
 
