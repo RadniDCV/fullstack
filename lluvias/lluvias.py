@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# Cargar la imagen de referencia (estado inicial del río)
+# Cargar la imagen de referencia (estado inicial del río) no cambiar el bombre
 ref_image_path = "river_reference.png"  # Imagen de referencia estática
 ref_image = cv2.imread(ref_image_path, cv2.IMREAD_GRAYSCALE)
 
