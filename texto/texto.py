@@ -1,6 +1,7 @@
 import cv2
 import pytesseract
 
+#hay problema de brew
 # Configura la ruta de Tesseract si es necesario
 # Por ejemplo, en macOS (usando Homebrew):
 pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
