@@ -30,6 +30,7 @@ ref_image = cv2.imread(ref_image_path, cv2.IMREAD_GRAYSCALE)
 if ref_image is None:
     raise Exception("No se pudo cargar la imagen de referencia.")
 
+#en mi caso utiliza el iphone como camara
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     raise Exception("No se pudo acceder a la cámara.")
