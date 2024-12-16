@@ -40,7 +40,7 @@ with mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_conf
             x2 = x1 + box_width
             y2 = y1 + box_height
 
-            # Rellenar la caja si el dedo correspondiente está "activo"
+            # Rellenar la caja si el dedo correspondiente está "activo revisar este codigo"
             if finger_states[i]:
                 cv2.rectangle(frame, (x1, y1), (x2, y2), color, -1)
             else:
