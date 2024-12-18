@@ -7,8 +7,8 @@ mp_drawing = mp.solutions.drawing_utils
 
 # Colores para cada dedo (dedo pulgar al meñique)
 finger_colors = [
-    (255, 0, 0),    # Pulgar - Rojo
-    (0, 255, 0),    # Índice - Verde
+    (255, 0, 0),    # Pulgar - Rojo -red
+    (0, 255, 0),    # Índice - Verde - green
     (0, 0, 255),    # Medio - Azul
     (255, 255, 0),  # Anular - Amarillo
     (255, 0, 255)   # Meñique - Magenta
