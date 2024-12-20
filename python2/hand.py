@@ -14,7 +14,7 @@ finger_colors = [
     (255, 0, 255)   # Meñique - Magenta
 ]
 
-# Configuración de la cámara
+# Configuración de la cámara se cambia el numero para la camara
 cap = cv2.VideoCapture(0)
 
 with mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_confidence=0.5, min_tracking_confidence=0.5) as hands:
