@@ -48,7 +48,7 @@ while True:
             label = "Match" if match[0] else "No Match"
             cv2.putText(frame, label, (left, top - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.75, color, 2)
 
-    # Mostrar el frame en la ventana
+    # Mostrar el frame en la ventanas
     cv2.imshow('Video', frame)
 
     # Presionar 'q' para salir del bucle
