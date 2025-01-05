@@ -14,6 +14,7 @@ function triggerLightning() {
 
     triggerLightning();
   }, delay);
+
 }
 
 function playThunder() {
