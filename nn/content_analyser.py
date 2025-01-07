@@ -35,7 +35,7 @@ MODEL_SET : ModelSet =\
 		'mean': [ 104, 117, 123 ]
 	}
 }
-#PROBABILITY_LIMIT = 0.80 para cambiar los filtros de blur 
+#PROBABILITY_LIMIT = 0.80 para cambiar los filtros de blur revisar
 PROBABILITY_LIMIT = 1.00
 RATE_LIMIT = 10
 STREAM_COUNTER = 0
