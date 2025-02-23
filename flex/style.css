@@ -4,15 +4,30 @@
 
 }
 
-.container{
-    border: 1px solid red;
+.grid-container{
+    width: 80%;
+    max-width: 800px;
+
+    border: 3px solid rgba(0, 0,0, 0.638);
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.section{
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-    height: 20px;
-    margin: 1px solid green ;
+.item-1{
+    background-color: #ff6b6b;
 }
-
+.item-2{
+    background-color: #4ecdc4;
+}
+.item-3{
+    background-color: #ffe66d;
+}
+.item-4{
+    background-color: #cd894e;
+}
+.item-5{
+    background-color: #a74ecd;
+}
+.item-6{
+    background-color: #4ec2cd;
+}
