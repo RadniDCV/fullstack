@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
     /*border: 1px red solid; */
     
 }
@@ -8,10 +9,23 @@
 .menupr{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
-    background-color: #f8e6d9;
+    background-color: #b3b0af;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+
+
+.link1{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+    
+}
+
 .grupo1{
     display: flex;
     flex-direction: row;
@@ -23,12 +37,21 @@
     
 }
 .elementon1{
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .bi {
     font-size: 2rem;
+    color: #707070;
+    
+}
+
+.bi-telephone{
+    padding: 5px;
+    border: 1px #707070 solid;
+    border-radius: 10px;
+    color: #707070;
 }
 
 .btn1{
