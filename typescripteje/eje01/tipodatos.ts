@@ -19,6 +19,7 @@ atacar("agua")*/
 (()=>{
     const pokemon1:string ="pokemon1";
     const pokemon2:string ="pokemon2";
+    const pokemon3:string ="pokemon3";
     
     console.log(`hola ${pokemon1}`)  
 })()
