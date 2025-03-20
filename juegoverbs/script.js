@@ -2,6 +2,7 @@ const verbs = [
     { verb: "act", correct: "actuar", wrong1: "correr", wrong2: "saltar" },
     { verb: "add", correct: "añadir", wrong1: "nadar", wrong2: "volar" },
     { verb: "arrest", correct: "arrestar", wrong1: "dormir", wrong2: "comer" },
+    { verb: "assist", correct: "asistir", wrong1: "bailar", wrong2: "jugar" },
     { verb: "assist", correct: "asistir", wrong1: "bailar", wrong2: "jugar" }
 ];
 
