@@ -1,6 +1,13 @@
+/*{
+    border: 1px red solid;
+}*/
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,6 +41,13 @@ button {
     background-color: #f4623e;
     color: #fff;
     border-radius: 5px;
+}
+
+.siguiente{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 button:hover {
