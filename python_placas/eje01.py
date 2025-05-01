@@ -23,7 +23,7 @@ while True:
     plate_text = pytesseract.image_to_string(plate_roi, config='--psm 8 --oem 3')
     plate_text = plate_text.strip().replace(" ", "").upper()  # Limpiar
 
-    # Validar formato de placa
+    # Validar formato de placa hay que revisar
     pattern = r'^\d{4}[A-Z]{3}$'
     if re.match(pattern, plate_text):
         print("Placa válida detectada:", plate_text)
