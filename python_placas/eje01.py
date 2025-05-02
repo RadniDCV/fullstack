@@ -13,7 +13,7 @@ while True:
     if not ret:
         break
 
-    # Procesamiento de la imagen
+    # Procesamiento de la imagen cambia a escala de grises
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # Detectar placas (esto es simplificado, normalmente usarías un detector)
