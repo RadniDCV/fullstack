@@ -17,7 +17,7 @@ while True:
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # Detectar placas (esto es simplificado, normalmente usarías un detector)
-    plate_roi = gray  # Por ahora procesamos toda la imagen
+    plate_roi = gray  # Por ahora procesamos toda la imagen para comprobar
 
     # OCR
     plate_text = pytesseract.image_to_string(plate_roi, config='--psm 8 --oem 3')
