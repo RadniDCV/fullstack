@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo01{
+    width: 100px;
+    height: 50px;
+   
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header {
+    background: #FAC50E;
+    padding: 15px 30px;
+    color: #103F79;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+header nav a {
+    color: #103F79;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #103F79;
+}
+
+.slider {
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.slider-content {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    z-index: 2;
+}
+
+.slider-content h2 {
+    font-size: 2.8em;
+}
+
+.slider-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.dots {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 10;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dot.active {
+    background: white;
+}
+
+footer {
+    background: #FAC50E;
+    color: #103F79;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+footer .social-icons a {
+    color: #103F79;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #ddd;
+}

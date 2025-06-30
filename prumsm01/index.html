@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Candidatos - Alianza Unidad</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- Menú superior -->
+  <header>
+    <div class="logo"><img class="logo01" src="logo01.jpg" alt=""></div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="propuesta.html">Propuesta</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Slider de candidatos -->
+  <div class="slider">
+    <div class="slide active" style="background-image: url('presidente.jpeg');"
+      data-title="Samuel Doria Medina" data-description="Comprometido con el futuro del país.">
+    </div>
+    <div class="slide" style="background-image: url('diputado.jpeg');"
+      data-title="María López" data-description="Defensora de la salud, educación y justicia.">
+    </div>
+    <div class="slide" style="background-image: url('diputado.jpeg');"
+      data-title="Carlos Mamani" data-description="Candidato a Suplente. Representando a las comunidades rurales con dignidad.">
+    </div>
+
+    <div class="slider-content" id="sliderContent">
+      <h2 id="slideTitle">Samuel Doria Medina</h2>
+      <p id="slideDescription">Candidato a Presidente. Comprometido con el futuro del país.</p>
+    </div>
+
+    <section id="propuesta" style="height:100vh; padding: 50px; background:#f0f0f0;">
+  <h2>Propuesta</h2>
+  <p>Resumen de la propuesta del partido...</p>
+</section>
+
+<section id="equipo" style="height:100vh; padding: 50px; background:#e0e0e0;">
+  <h2>Equipo</h2>
+  <p>Información sobre los miembros del equipo político...</p>
+</section>
+
+<section id="contacto" style="height:100vh; padding: 50px; background:#d0d0d0;">
+  <h2>Contacto</h2>
+  <p>Formulario o redes para contacto directo...</p>
+</section>
+
+
+    <div class="dots">
+      <span class="dot active" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+  </div>
+
+  <!-- Pie de página con redes sociales -->
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>&copy; 2025 Alianza Unidad. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- JavaScript para cambio de slide -->
+ <script src="script.js"></script>
+
+</body>
+</html>
